@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_distill",
     "fyre_app"
 ]
 
@@ -120,6 +121,7 @@ STATIC_URL = "static/"
 STATICFILES_DIRS = [
     BASE_DIR / 'fyre_app/assets',
 ]
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
