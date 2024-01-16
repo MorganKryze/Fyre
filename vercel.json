@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "src/fyre/fyre/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/fyre/fyre/wsgi.py"
+    }
+  ]
+}
