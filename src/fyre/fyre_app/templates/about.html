@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Fyre - About</title>
+  </head>
+  <body class="bg-gray-100 font-sans flex flex-col min-h-screen mt-20">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50">
+      <div class="container mx-auto flex justify-center items-center">
+        <!-- Logo -->
+        {% load static %}
+        <img src="{% static 'img/home.svg' %}" alt="Logo" class="w-16 h-16" />
+
+        <!-- Title -->
+        <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
+
+        <!-- Navigation Links -->
+        <div class="space-x-4 ml-auto">
+          <a href="{% url 'index' %}" class="hover:underline">Home</a>
+          <a href="{% url 'analytics' %}" class="hover:underline">Analytics</a>
+          <a href="{% url 'about' %}" class="border-b-2">About</a>
+          <a href="{% url 'contact' %}" class="hover:underline">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="container mx-auto my-20">
+      <div class="text-center">
+        <h2 class="text-4xl font-bold mb-4">About Us</h2>
+        <p class="text-gray-700 mb-8">
+          Welcome to Find Your Real Estate, where we strive to make your
+          property search experience seamless and enjoyable. Our mission is to
+          connect you with your dream home, providing innovative solutions and
+          reliable information to guide your real estate decisions.
+        </p>
+      </div>
+
+      <!-- Mission Statement -->
+      <div class="flex items-center justify-center">
+        <div class="w-2/3 text-center">
+          <h3 class="text-2xl font-bold mb-2">Our Mission</h3>
+          <p class="text-gray-700">
+            At Find Your Real Estate, we are dedicated to simplifying the real
+            estate journey. Our mission is to empower individuals and families
+            to find the perfect property that fits their needs and aspirations.
+            We believe in delivering exceptional service and accurate
+            information to ensure informed decision-making.
+          </p>
+        </div>
+      </div>
+
+      <!-- Values -->
+      <div class="flex items-center justify-center mt-12">
+        <div class="w-2/3 text-center">
+          <h3 class="text-2xl font-bold mb-2">Our Values</h3>
+          <p class="text-gray-700">
+            Integrity, innovation, and customer satisfaction are at the core of
+            our values. We strive to build trust by providing transparent and
+            reliable real estate solutions. Our commitment to innovation drives
+            us to explore new ways to enhance your property search experience,
+            ensuring that you can find your ideal home with confidence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-20 mt-auto">
+      <div class="container mx-auto text-center">
+        <p>
+          &copy; 2024 Find your Real Estate &bull;
+          <a class="hover:underline">Terms</a>
+          &bull;
+          <a class="hover:underline">Privacy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

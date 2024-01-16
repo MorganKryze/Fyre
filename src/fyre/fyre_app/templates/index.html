@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Fyre - Home</title>
+  </head>
+  <body class="bg-gray-100 font-sans flex flex-col min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50">
+      <div class="container mx-auto flex justify-center items-center">
+        <!-- Logo -->
+        {% load static %}
+        <img src="{% static 'img/home.svg' %}" alt="Logo" class="w-16 h-16" />
+
+        <!-- Title -->
+        <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
+
+        <!-- Navigation Links -->
+        <div class="space-x-4 ml-auto">
+          <a href="{% url 'index' %}" class="border-b-2">Home</a>
+          <a href="{% url 'analytics' %}" class="hover:underline">Analytics</a>
+          <a href="{% url 'about' %}" class="hover:underline">About</a>
+          <a href="{% url 'contact' %}" class="hover:underline">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-800 text-white py-16 mt-16">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">
+          Empowering your decisions with analytics
+        </h1>
+        <p class="text-lg mb-8">
+          Unlock insights, make data-driven decisions, and drive business
+          success.
+        </p>
+        <a
+          href="{% url 'analytics' %}"
+          class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600"
+          >Start now!</a
+        >
+      </div>
+    </section>
+
+    <!-- Informative Sections -->
+    <section class="container mx-auto my-20 mb-20">
+      <!-- Added mb-12 for vertical margin -->
+      <!-- Section 1 -->
+      <div class="flex items-center mb-40">
+        <div class="text-left pl-8">
+          <h2 class="text-5xl font-bold mb-2">Reliable.</h2>
+          <p class="text-lg text-gray-500">
+            Our analytics platform is built on a foundation of reliability. We
+            understand the importance of accurate and consistent data to empower
+            your decision-making process. With our reliable analytics solutions,
+            you can trust the insights that drive your business forward.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="flex items-center mb-40">
+        <div class="text-right pr-8">
+          <h2 class="text-5xl font-bold mb-2">Efficient.</h2>
+          <p class="text-lg text-gray-500">
+            Efficiency is at the core of our analytics tools. We recognize the
+            value of your time and resources. Our efficient analytics solutions
+            streamline your workflow, providing you with the information you
+            need when you need it. Maximize productivity and make the most of
+            your resources with our efficient analytics platform.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="flex items-center mb-40">
+        <div class="text-left pl-8">
+          <h2 class="text-5xl font-bold mb-2">Insightful.</h2>
+          <p class="text-lg text-gray-500">
+            Unlock deep insights into your data with our analytics platform. We
+            go beyond the surface, helping you uncover trends, patterns, and
+            opportunities that may otherwise go unnoticed. Our insightful
+            analytics solutions empower you to make informed decisions and drive
+            growth and improvement within your organization.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="flex items-center mb-40">
+        <div class="text-right pr-8">
+          <h2 class="text-5xl font-bold mb-2">Flexible.</h2>
+          <p class="text-lg text-gray-500">
+            Business needs are dynamic, and our analytics platform is designed
+            to be flexible. Adapt to changes seamlessly with our flexible
+            analytics solutions. Whether you're scaling your operations or
+            adjusting to evolving market conditions, our platform grows with
+            you. Stay agile and responsive with our flexible analytics tools.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="flex items-center mb-40">
+        <div class="text-left pl-8">
+          <h2 class="text-5xl font-bold mb-2">Innovative.</h2>
+          <p class="text-lg text-gray-500">
+            Stay ahead of the curve with our innovative analytics solutions. We
+            are committed to continuous improvement and pushing the boundaries
+            of what analytics can achieve. Our innovative features and tools
+            ensure that you not only keep pace with industry advancements but
+            lead the way in leveraging analytics for strategic success.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-20 mt-auto">
+      <div class="container mx-auto text-center">
+        <p>
+          &copy; 2024 Find your Real Estate &bull;
+          <a class="hover:underline">Terms</a>
+          &bull;
+          <a class="hover:underline">Privacy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

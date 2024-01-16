@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Fyre - Contact</title>
+  </head>
+  <body class="bg-gray-100 font-sans flex flex-col min-h-screen mt-20">
+    <!-- Navigation -->
+    <nav
+      class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50"
+    >
+      <div class="container mx-auto flex justify-center items-center">
+        <!-- Logo -->
+        {% load static %}
+        <img src="{% static 'img/home.svg' %}" alt="Logo" class="w-16 h-16" />
+
+        <!-- Title -->
+        <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
+
+        <!-- Navigation Links -->
+        <div class="space-x-4 ml-auto">
+          <a href="{% url 'index' %}" class="hover:underline">Home</a>
+          <a href="{% url 'analytics' %}" class="hover:underline">Analytics</a>
+          <a href="{% url 'about' %}" class="hover:underline">About</a>
+          <a href="{% url 'contact' %}" class="border-b-2">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Team Section -->
+    <section class="container mx-auto my-20 flex flex-col items-center">
+      <h2 class="text-4xl font-bold mb-16 text-center">Meet our Crew</h2>
+
+      <!-- Team Member 1 -->
+      <div class="flex items-center mb-16">
+        <div class="flex-shrink-0 mr-6">
+          <img
+            src="https://avatars.githubusercontent.com/u/103436411?v=4"
+            alt="Team Member 1"
+            class="w-24 h-24 rounded-full"
+          />
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold mb-2">MorganKryze</h3>
+          <p class="text-gray-500">Web Developer</p>
+          <p class="text-gray-700">
+            Morgan is a passionate web developer with expertise in creating
+            user-friendly and efficient web applications. He loves turning ideas
+            into reality and is committed to delivering high-quality solutions
+            for every project.
+          </p>
+          <p class="text-gray-700 mt-2">
+            Contact Morgan:
+            <a class="hover:underline">morgan@fyre.inc.com</a> | Phone: +1 (555)
+            123-4567
+          </p>
+        </div>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="flex items-center mb-16">
+        <div class="flex-shrink-0 mr-6">
+          <img
+            src="https://avatars.githubusercontent.com/u/116194377?v=4"
+            alt="Team Member 2"
+            class="w-24 h-24 rounded-full"
+          />
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold mb-2">sheesh3218</h3>
+          <p class="text-gray-500">Data Scientist</p>
+          <p class="text-gray-700">
+            Sheesh is a data science enthusiast with a knack for uncovering
+            valuable insights from complex datasets. She is dedicated to using
+            data-driven approaches to solve real-world problems and drive
+            business success.
+          </p>
+          <p class="text-gray-700 mt-2">
+            Contact Sheesh:
+            <a class="hover:underline">sheesh@fyre.inc.com</a> | Phone: +1 (555)
+            987-6543
+          </p>
+        </div>
+      </div>
+
+      <!-- Team Member 3 -->
+      <div class="flex items-center">
+        <div class="flex-shrink-0 mr-6">
+          <img
+            src="https://avatars.githubusercontent.com/u/156447813?v=4"
+            alt="Team Member 3"
+            class="w-24 h-24 rounded-full"
+          />
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold mb-2">MailiTurong</h3>
+          <p class="text-gray-500">UX Designer</p>
+          <p class="text-gray-700">
+            Maili is a creative UX designer passionate about crafting meaningful
+            and intuitive user experiences. With a keen eye for detail, Maili
+            strives to deliver designs that not only look great but also enhance
+            user satisfaction.
+          </p>
+          <p class="text-gray-700 mt-2">
+            Contact Maili:
+            <a class="hover:underline">maili@fyre.inc.com</a> | Phone: +1 (555)
+            789-0123
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-20 mt-auto">
+      <div class="container mx-auto text-center">
+        <p>
+          &copy; 2024 Find your Real Estate &bull;
+          <a class="hover:underline">Terms</a>
+          &bull;
+          <a class="hover:underline">Privacy</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
