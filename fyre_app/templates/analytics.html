@@ -11,11 +11,17 @@
   </head>
   <body class="bg-gray-100 font-sans flex flex-col min-h-screen">
     <!-- Navigation -->
-    <nav class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50">
+    <nav
+      class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50"
+    >
       <div class="container mx-auto flex justify-center items-center">
         <!-- Logo -->
-        
-        <img src="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg" alt="Logo" class="w-16 h-16" />
+
+        <img
+          src="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg"
+          alt="Logo"
+          class="w-16 h-16"
+        />
 
         <!-- Title -->
         <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
@@ -33,9 +39,13 @@
     <!-- Hero Section -->
     <section class="bg-gray-800 text-white py-16 mt-20">
       <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-4">analytics</h1>
+        <h1 class="text-4xl font-bold mb-4">
+          Welcome to the analytics section!
+        </h1>
       </div>
     </section>
+
+    <div style="display: flex; justify-content: center">{{ data|safe }}</div>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-20 mt-auto">
