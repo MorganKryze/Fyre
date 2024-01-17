@@ -11,17 +11,23 @@
   </head>
   <body class="bg-gray-100 font-sans flex flex-col min-h-screen">
     <!-- Navigation -->
-    <nav class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50">
+    <nav
+      class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50"
+    >
       <div class="container mx-auto flex justify-center items-center">
         <!-- Logo -->
-        <img src="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg" alt="Logo" class="w-16 h-16" />
+        <img
+          src="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg"
+          alt="Logo"
+          class="w-16 h-16"
+        />
 
         <!-- Title -->
         <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
 
         <!-- Navigation Links -->
         <div class="space-x-4 ml-auto">
-          <a href="{% url 'index' %}" class="border-b-2">Home</a>
+          <a href="{% url 'home' %}" class="border-b-2">Home</a>
           <a href="{% url 'analytics' %}" class="hover:underline">Analytics</a>
           <a href="{% url 'about' %}" class="hover:underline">About</a>
           <a href="{% url 'contact' %}" class="hover:underline">Contact</a>
@@ -121,13 +127,23 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-20 mt-auto">
+    <footer class="bg-gray-900 text-white py-10 mt-auto">
       <div class="container mx-auto text-center">
         <p>
-          &copy; 2024 Find your Real Estate &bull;
+          &copy;
+          <a href="https://github.com/MorganKryze/Fyre/" class="hover:underline"
+            >2024 Find your Real Estate</a
+          >
+          &bull;
           <a class="hover:underline">Terms</a>
           &bull;
           <a class="hover:underline">Privacy</a>
+        </p>
+        <p class="mt-2 text-xs text-gray-500">
+          Disclaimer: This website is a student project and is for informational
+          purposes only. <br />
+          The data may not be accurate or up-to-date. Please do not use this
+          information to make real decisions.
         </p>
       </div>
     </footer>

@@ -2,7 +2,7 @@
 
 > A simple Django project to explore Real Estate data and publish it to the web using Vercel.
 
-[![Fyre](assets/img/demo.jpeg)](https://fyre-git-main-morgankryzes-projects.vercel.app/)
+[![Fyre](assets/img/demo.jpeg)](https://fyre.vercel.app/)
 
 ## Getting Started
 
