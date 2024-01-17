@@ -33,3 +33,6 @@ def about(request):
 
 def contact(request):
     return render(request, "contact.html")
+
+def error_500_view(request):
+    raise Exception("This is a test exception for the 500 error page.")
