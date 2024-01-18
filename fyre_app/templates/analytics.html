@@ -1,72 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <title>Fyre - Analytics</title>
-  </head>
-  <body class="bg-gray-100 font-sans flex flex-col min-h-screen">
-    <!-- Navigation -->
-    <nav
-      class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50"
-    >
-      <div class="container mx-auto flex justify-center items-center">
-        <!-- Logo -->
+{% extends "base.html" %} {%block nav_items %}
+<a href="{% url 'home' %}" class="hover:underline">Home</a>
+<a href="{% url 'analytics' %}" class="border-b-2">Analytics</a>
+<a href="{% url 'about' %}" class="hover:underline">About</a>
+<a href="{% url 'contact' %}" class="hover:underline">Contact</a>{% endblock %}
+{% block content %}
+<section class="bg-gray-800 text-white py-16">
+  <div class="container mx-auto text-center">
+    <h1 class="text-4xl font-bold mb-4">Welcome to the analytics section!</h1>
+  </div>
+</section>
 
-        <img
-          src="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg"
-          alt="Logo"
-          class="w-16 h-16"
-        />
-
-        <!-- Title -->
-        <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
-
-        <!-- Navigation Links -->
-        <div class="space-x-4 ml-auto">
-          <a href="{% url 'home' %}" class="hover:underline">Home</a>
-          <a href="{% url 'analytics' %}" class="border-b-2">Analytics</a>
-          <a href="{% url 'about' %}" class="hover:underline">About</a>
-          <a href="{% url 'contact' %}" class="hover:underline">Contact</a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="bg-gray-800 text-white py-16 mt-20">
-      <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-4">
-          Welcome to the analytics section!
-        </h1>
-      </div>
-    </section>
-
-    <div style="display: flex; justify-content: center">{{ data|safe }}</div>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-10 mt-auto">
-      <div class="container mx-auto text-center">
-        <p>
-          &copy;
-          <a href="https://github.com/MorganKryze/Fyre/" class="hover:underline"
-            >2024 Find your Real Estate</a
-          >
-          &bull;
-          <a class="hover:underline">Terms</a>
-          &bull;
-          <a class="hover:underline">Privacy</a>
-        </p>
-        <p class="mt-2 text-xs text-gray-500">
-          Disclaimer: This website is a student project and is for informational
-          purposes only. <br />
-          The data may not be accurate or up-to-date. Please do not use this
-          information to make real decisions.
-        </p>
-      </div>
-    </footer>
-  </body>
-</html>
+<div style="display: flex; justify-content: center">{{ data|safe }}</div>
+{% endblock %}
