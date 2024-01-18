@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-18 22:47+0000\n"
+"POT-Creation-Date: 2024-01-18 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,53 +18,147 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: fyre/settings.py:116 fyre_app/templates/index.html:96
+#: fyre/settings.py:116 fyre_app/templates/base.html:83
+#: fyre_app/templates/index.html:92
 msgid "English"
 msgstr "Anglais"
 
-#: fyre/settings.py:117 fyre_app/templates/index.html:113
+#: fyre/settings.py:117 fyre_app/templates/base.html:100
+#: fyre_app/templates/index.html:109
 msgid "French"
 msgstr "Français"
 
-#: fyre_app/templates/index.html:35
+#: fyre_app/templates/about.html:2 fyre_app/templates/analytics.html:2
+#: fyre_app/templates/contact.html:2 fyre_app/templates/index.html:32
 msgid "Home"
 msgstr "Accueil"
 
-#: fyre_app/templates/index.html:37
+#: fyre_app/templates/about.html:4 fyre_app/templates/analytics.html:3
+#: fyre_app/templates/contact.html:4 fyre_app/templates/index.html:34
 msgid "Analytics"
 msgstr "Analyses"
 
-#: fyre_app/templates/index.html:40
+#: fyre_app/templates/about.html:6 fyre_app/templates/analytics.html:4
+#: fyre_app/templates/contact.html:6 fyre_app/templates/index.html:37
 msgid "About"
 msgstr "À propos"
 
-#: fyre_app/templates/index.html:43
+#: fyre_app/templates/about.html:7 fyre_app/templates/analytics.html:5
+#: fyre_app/templates/contact.html:7 fyre_app/templates/index.html:40
 msgid "Contact"
 msgstr "Contact"
 
-#: fyre_app/templates/index.html:54
+#: fyre_app/templates/about.html:12
+msgid "about-main-title"
+msgstr "À propos de nous"
+
+#: fyre_app/templates/about.html:15
+msgid "about-main-content"
+msgstr ""
+"Bienvenue à Find Your Real Estate, où nous nous efforçons de rendre votre "
+"expérience de recherche de propriété fluide et agréable. Notre mission est "
+"de vous connecter avec la maison de vos rêves, en fournissant des solutions "
+"innovantes et des informations fiables pour guider vos décisions "
+"immobilières."
+
+#: fyre_app/templates/about.html:23
+msgid "about-mission-title"
+msgstr "Notre mission"
+
+#: fyre_app/templates/about.html:26
+msgid "about-mission-content"
+msgstr ""
+"Chez Find Your Real Estate, nous nous consacrons à simplifier le parcours "
+"immobilier. Notre mission est de permettre aux individus et aux familles de "
+"trouver la propriété parfaite qui répond à leurs besoins et aspirations. "
+"Nous croyons en la fourniture d'un service exceptionnel et d'informations "
+"précises pour assurer une prise de décision éclairée."
+
+#: fyre_app/templates/about.html:35
+msgid "about-values-title"
+msgstr "Nos valeurs"
+
+#: fyre_app/templates/about.html:38
+msgid "about-values-content"
+msgstr ""
+"L'intégrité, l'innovation et la satisfaction du client sont au cœur de nos "
+"valeurs. Nous nous efforçons de construire la confiance en fournissant des "
+"solutions immobilières transparentes et fiables. Notre engagement envers "
+"l'innovation nous pousse à explorer de nouvelles façons d'améliorer votre "
+"expérience de recherche de propriété, en vous assurant que vous pouvez "
+"trouver votre maison idéale en toute confiance."
+
+#: fyre_app/templates/analytics.html:9
+msgid "analytics-title"
+msgstr "Bienvenue dans la section des analyses !"
+
+#: fyre_app/templates/base.html:42 fyre_app/templates/index.html:51
 msgid "Language"
 msgstr "Langue"
 
-#: fyre_app/templates/index.html:128
+#: fyre_app/templates/base.html:123 fyre_app/templates/index.html:184
+msgid "footer-terms"
+msgstr "Termes"
+
+#: fyre_app/templates/base.html:125 fyre_app/templates/index.html:186
+msgid "footer-privacy"
+msgstr "Confidentialité"
+
+#: fyre_app/templates/base.html:128 fyre_app/templates/index.html:189
+msgid "footer-disclaimer"
+msgstr ""
+"Avertissement : Ce site web est un projet étudiant et est à des fins "
+"d'information seulement."
+
+#: fyre_app/templates/base.html:130 fyre_app/templates/index.html:191
+msgid "footer-data"
+msgstr ""
+"Les données peuvent ne pas être précises ou à jour. Veuillez ne pas utiliser "
+"ces informations pour prendre des décisions réelles."
+
+#: fyre_app/templates/contact.html:27
+msgid "member-1-job"
+msgstr "Développeur Web"
+
+#: fyre_app/templates/contact.html:28
+msgid "member-1-desc"
+msgstr "Morgan est un développeur web passionné avec une expertise dans la création d'applications web conviviales et efficaces. Il adore transformer les idées en réalité et s'engage à fournir des solutions de haute qualité pour chaque projet."
+
+#: fyre_app/templates/contact.html:52
+msgid "member-2-job"
+msgstr "Data Scientist"
+
+#: fyre_app/templates/contact.html:53
+msgid "member-2-desc"
+msgstr "Sheesh est un passionné de science des données avec un talent pour découvrir des informations précieuses à partir de jeux de données complexes. Elle est dédiée à l'utilisation d'approches basées sur les données pour résoudre des problèmes réels et favoriser le succès des entreprises."
+
+#: fyre_app/templates/contact.html:77
+msgid "member-3-job"
+msgstr "Designer UX"
+
+#: fyre_app/templates/contact.html:78
+msgid "member-3-desc"
+msgstr "Maili est une designer UX créative passionnée par la création d'expériences utilisateur significatives et intuitives. Avec un œil attentif aux détails, Maili s'efforce de fournir des designs qui non seulement ont fière allure, mais améliorent également la satisfaction de l'utilisateur."
+
+#: fyre_app/templates/index.html:123
 msgid "hero-title"
 msgstr "Améliorez vos décisions avec des analyses"
 
-#: fyre_app/templates/index.html:129
+#: fyre_app/templates/index.html:124
 msgid "hero-content"
 msgstr ""
 "Découvrez des informations, prenez des décisions basées sur les données et "
 "favorisez le succès de votre entreprise."
 
-#: fyre_app/templates/index.html:133
+#: fyre_app/templates/index.html:128
 msgid "hero-button"
 msgstr "Commencez maintenant!"
 
-#: fyre_app/templates/index.html:144
+#: fyre_app/templates/index.html:138
 msgid "section-1-title"
 msgstr "Fiable."
 
-#: fyre_app/templates/index.html:145
+#: fyre_app/templates/index.html:139
 msgid "section-1-content"
 msgstr ""
 "Notre plateforme d'analyse est construite sur une base de fiabilité. Nous "
@@ -73,11 +167,11 @@ msgstr ""
 "vous pouvez faire confiance aux informations qui font avancer votre "
 "entreprise."
 
-#: fyre_app/templates/index.html:152
+#: fyre_app/templates/index.html:146
 msgid "section-2-title"
 msgstr "Efficace."
 
-#: fyre_app/templates/index.html:153
+#: fyre_app/templates/index.html:147
 msgid "section-2-content"
 msgstr ""
 "L'efficacité est au cœur de nos outils d'analyse. Nous reconnaissons la "
@@ -87,11 +181,11 @@ msgstr ""
 "productivité et tirez le meilleur parti de vos ressources avec notre "
 "plateforme d'analyse efficace."
 
-#: fyre_app/templates/index.html:160
+#: fyre_app/templates/index.html:154
 msgid "section-3-title"
 msgstr "Instructif."
 
-#: fyre_app/templates/index.html:161
+#: fyre_app/templates/index.html:155
 msgid "section-3-content"
 msgstr ""
 "Découvrez des informations profondes sur vos données avec notre plateforme "
@@ -101,11 +195,11 @@ msgstr ""
 "des décisions éclairées et de stimuler la croissance et l'amélioration au "
 "sein de votre organisation."
 
-#: fyre_app/templates/index.html:168
+#: fyre_app/templates/index.html:162
 msgid "section-4-title"
 msgstr "Flexible."
 
-#: fyre_app/templates/index.html:169
+#: fyre_app/templates/index.html:163
 msgid "section-4-content"
 msgstr ""
 "Les besoins commerciaux sont dynamiques, et notre plateforme d'analyse est "
@@ -115,11 +209,11 @@ msgstr ""
 "en évolution, notre plateforme évolue avec vous. Restez agile et réactif "
 "avec nos outils d'analyse flexibles."
 
-#: fyre_app/templates/index.html:176
+#: fyre_app/templates/index.html:170
 msgid "section-5-title"
 msgstr "Innovant."
 
-#: fyre_app/templates/index.html:177
+#: fyre_app/templates/index.html:171
 msgid "section-5-content"
 msgstr ""
 "Restez à la pointe de la technologie avec nos solutions d'analyse "
@@ -128,22 +222,3 @@ msgstr ""
 "innovants garantissent que vous ne vous contentez pas de suivre les avancées "
 "de l'industrie, mais que vous menez la voie dans l'utilisation de l'analyse "
 "pour le succès stratégique."
-
-#: fyre_app/templates/index.html:191
-msgid "footer-terms"
-msgstr "Termes"
-
-#: fyre_app/templates/index.html:193
-msgid "footer-privacy"
-msgstr "Confidentialité"
-
-#: fyre_app/templates/index.html:196
-msgid "footer-disclaimer"
-msgstr ""
-"Avertissement : Ce site web est un projet étudiant et est à des fins "
-"d'information seulement."
-
-#: fyre_app/templates/index.html:198
-msgid "footer-data"
-msgstr "Les données peuvent ne pas être précises ou à jour. Veuillez ne pas utiliser ces "
-"informations pour prendre des décisions réelles."
