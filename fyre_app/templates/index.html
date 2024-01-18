@@ -1,3 +1,4 @@
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,10 +32,16 @@
 
         <!-- Navigation Links -->
         <div class="space-x-4 ml-auto">
-          <a href="{% url 'home' %}" class="border-b-2">Home</a>
-          <a href="{% url 'analytics' %}" class="hover:underline">Analytics</a>
-          <a href="{% url 'about' %}" class="hover:underline">About</a>
-          <a href="{% url 'contact' %}" class="hover:underline">Contact</a>
+          <a href="{% url 'home' %}" class="border-b-2">{% trans "Home" %}</a>
+          <a href="{% url 'analytics' %}" class="hover:underline"
+            >{% trans "Analytics" %}</a
+          >
+          <a href="{% url 'about' %}" class="hover:underline"
+            >{% trans "About" %}</a
+          >
+          <a href="{% url 'contact' %}" class="hover:underline"
+            >{% trans "Contact" %}</a
+          >
           <div class="relative inline-block text-left">
             <div>
               <button
@@ -44,7 +51,7 @@
                 aria-haspopup="true"
                 aria-expanded="true"
               >
-                Language
+                {% trans "Language" %}
                 <!-- Heroicon name: chevron-down -->
                 <svg
                   class="-mr-1 ml-2 h-5 w-5"
@@ -63,7 +70,7 @@
             </div>
 
             <div
-              class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden"
+              class="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden"
               id="dropdown"
             >
               <div
@@ -72,20 +79,41 @@
                 aria-orientation="vertical"
                 aria-labelledby="options-menu"
               >
-                <a
-                  href="?lang=en"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  role="menuitem"
-                >
-                  English
-                </a>
-                <a
-                  href="?lang=fr"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                  role="menuitem"
-                >
-                  French
-                </a>
+                <form action="{% url 'set_language' %}" method="post">
+                  {% csrf_token %}
+                  <input
+                    name="next"
+                    type="hidden"
+                    value="{{ request.get_full_path }}"
+                  />
+                  <button
+                    type="submit"
+                    name="language"
+                    value="en"
+                    class="block w-full px-4 py-1 text-base text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-left"
+                    role="menuitem"
+                  >
+                    {% trans "English" %}
+                  </button>
+                </form>
+                <form action="{% url 'set_language' %}" method="post">
+                  {% csrf_token %}
+                  <input
+                    name="next"
+                    type="hidden"
+                    value="{{ request.get_full_path }}"
+                  />
+                  <button
+                    type="submit"
+                    name="language"
+                    value="fr"
+                    class="block w-full px-4 py-1 text-base text-gray-700 hover:bg-gray-100 hover:text-gray-900 text-left"
+                    role="menuitem"
+                  >
+                    {% trans "French" %}
+                  </button>
+                </form>
+                <!-- Add more languages here -->
                 <!-- Add more languages here -->
               </div>
             </div>
@@ -97,17 +125,12 @@
     <!-- Hero Section -->
     <section class="bg-gray-800 text-white py-16 mt-20">
       <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold mb-4">
-          Empowering your decisions with analytics
-        </h1>
-        <p class="text-lg mb-8">
-          Unlock insights, make data-driven decisions, and drive business
-          success.
-        </p>
+        <h1 class="text-4xl font-bold mb-4">{% trans "hero-title" %}</h1>
+        <p class="text-lg mb-8">{% trans "hero-content" %}</p>
         <a
           href="{% url 'analytics' %}"
           class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600"
-          >Start now!</a
+          >{% trans "hero-button" %}</a
         >
       </div>
     </section>
@@ -118,69 +141,40 @@
       <!-- Section 1 -->
       <div class="flex items-center mb-40">
         <div class="text-left pl-8">
-          <h2 class="text-5xl font-bold mb-2">Reliable.</h2>
-          <p class="text-lg text-gray-500">
-            Our analytics platform is built on a foundation of reliability. We
-            understand the importance of accurate and consistent data to empower
-            your decision-making process. With our reliable analytics solutions,
-            you can trust the insights that drive your business forward.
-          </p>
+          <h2 class="text-5xl font-bold mb-2">{% trans "section-1-title" %}</h2>
+          <p class="text-lg text-gray-500">{% trans "section-1-content" %}</p>
         </div>
       </div>
 
       <!-- Section 2 -->
       <div class="flex items-center mb-40">
         <div class="text-right pr-8">
-          <h2 class="text-5xl font-bold mb-2">Efficient.</h2>
-          <p class="text-lg text-gray-500">
-            Efficiency is at the core of our analytics tools. We recognize the
-            value of your time and resources. Our efficient analytics solutions
-            streamline your workflow, providing you with the information you
-            need when you need it. Maximize productivity and make the most of
-            your resources with our efficient analytics platform.
-          </p>
+          <h2 class="text-5xl font-bold mb-2">{% trans "section-2-title" %}</h2>
+          <p class="text-lg text-gray-500">{% trans "section-2-content" %}</p>
         </div>
       </div>
 
       <!-- Section 3 -->
       <div class="flex items-center mb-40">
         <div class="text-left pl-8">
-          <h2 class="text-5xl font-bold mb-2">Insightful.</h2>
-          <p class="text-lg text-gray-500">
-            Unlock deep insights into your data with our analytics platform. We
-            go beyond the surface, helping you uncover trends, patterns, and
-            opportunities that may otherwise go unnoticed. Our insightful
-            analytics solutions empower you to make informed decisions and drive
-            growth and improvement within your organization.
-          </p>
+          <h2 class="text-5xl font-bold mb-2">{% trans "section-3-title" %}</h2>
+          <p class="text-lg text-gray-500">{% trans "section-3-content" %}</p>
         </div>
       </div>
 
       <!-- Section 4 -->
       <div class="flex items-center mb-40">
         <div class="text-right pr-8">
-          <h2 class="text-5xl font-bold mb-2">Flexible.</h2>
-          <p class="text-lg text-gray-500">
-            Business needs are dynamic, and our analytics platform is designed
-            to be flexible. Adapt to changes seamlessly with our flexible
-            analytics solutions. Whether you're scaling your operations or
-            adjusting to evolving market conditions, our platform grows with
-            you. Stay agile and responsive with our flexible analytics tools.
-          </p>
+          <h2 class="text-5xl font-bold mb-2">{% trans "section-4-title" %}</h2>
+          <p class="text-lg text-gray-500">{% trans "section-4-content" %}</p>
         </div>
       </div>
 
       <!-- Section 5 -->
       <div class="flex items-center mb-40">
         <div class="text-left pl-8">
-          <h2 class="text-5xl font-bold mb-2">Innovative.</h2>
-          <p class="text-lg text-gray-500">
-            Stay ahead of the curve with our innovative analytics solutions. We
-            are committed to continuous improvement and pushing the boundaries
-            of what analytics can achieve. Our innovative features and tools
-            ensure that you not only keep pace with industry advancements but
-            lead the way in leveraging analytics for strategic success.
-          </p>
+          <h2 class="text-5xl font-bold mb-2">{% trans "section-5-title" %}</h2>
+          <p class="text-lg text-gray-500">{% trans "section-5-content" %}</p>
         </div>
       </div>
     </section>
@@ -190,19 +184,18 @@
     <div class="container mx-auto text-center">
       <p>
         &copy;
-        <a href="https://github.com/MorganKryze/Fyre/" class="hover:underline"
-          >2024 Find your Real Estate</a
+        <a href="https://github.com/MorganKryze/Fyre/" class="hover:underline">
+          2024 Find your Real Estate</a
         >
         &bull;
-        <a class="hover:underline">Terms</a>
+        <a class="hover:underline"> {% trans "footer-terms" %}</a>
         &bull;
-        <a class="hover:underline">Privacy</a>
+        <a class="hover:underline">{% trans "footer-privacy" %}</a>
       </p>
       <p class="mt-2 text-xs text-gray-500">
-        Disclaimer: This website is a student project and is for informational
-        purposes only. <br />
-        The data may not be accurate or up-to-date. Please do not use this
-        information to make real decisions.
+        {% trans "footer-disclaimer" %}
+        <br />
+        {% trans "footer-data" %}
       </p>
     </div>
   </footer>
