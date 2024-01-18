@@ -1,9 +1,11 @@
-{% extends "base.html" %} {%block nav_items %}
-<a href="{% url 'home' %}" class="hover:underline">Home</a>
-<a href="{% url 'analytics' %}" class="hover:underline">Analytics</a>
-<a href="{% url 'about' %}" class="hover:underline">About</a>
-<a href="{% url 'contact' %}" class="border-b-2">Contact</a>{% endblock %}
-{%block content %}
+{% extends "base.html" %} {% block nav_items %} {% load i18n %}
+<a href="{% url 'home' %}" class="hover:underline">{% trans "Home" %}</a>
+<a href="{% url 'analytics' %}" class="hover:underline"
+  >{% trans "Analytics" %}</a
+>
+<a href="{% url 'about' %}" class="hover:underline">{% trans "About" %}</a>
+<a href="{% url 'contact' %}" class="border-b-2">{% trans "Contact" %}</a>
+{% endblock %} {%block content %} {% load i18n %}
 <section class="container mx-auto my-20 flex flex-col items-center">
   <h2 class="text-4xl font-bold mb-16 text-center">Meet our Crew</h2>
 
@@ -22,13 +24,8 @@
           >MorganKryze</a
         >
       </h3>
-      <p class="text-gray-500">Web Developer</p>
-      <p class="text-gray-700">
-        Morgan is a passionate web developer with expertise in creating
-        user-friendly and efficient web applications. He loves turning ideas
-        into reality and is committed to delivering high-quality solutions for
-        every project.
-      </p>
+      <p class="text-gray-500">{% trans "member-1-job" %}</p>
+      <p class="text-gray-700">{% trans "member-1-desc" %}</p>
       <p class="text-gray-700 mt-2">
         Contact Morgan:
         <a class="hover:underline">morgan@fyre.inc.com</a> | Phone: +1 (555)
@@ -52,12 +49,8 @@
           >sheesh3218</a
         >
       </h3>
-      <p class="text-gray-500">Data Scientist</p>
-      <p class="text-gray-700">
-        Sheesh is a data science enthusiast with a knack for uncovering valuable
-        insights from complex datasets. She is dedicated to using data-driven
-        approaches to solve real-world problems and drive business success.
-      </p>
+      <p class="text-gray-500">{% trans "member-2-job" %}</p>
+      <p class="text-gray-700">{% trans "member-2-desc" %}</p>
       <p class="text-gray-700 mt-2">
         Contact Sheesh:
         <a class="hover:underline">sheesh@fyre.inc.com</a> | Phone: +1 (555)
@@ -81,13 +74,8 @@
           >MailiTruong</a
         >
       </h3>
-      <p class="text-gray-500">UX Designer</p>
-      <p class="text-gray-700">
-        Maili is a creative UX designer passionate about crafting meaningful and
-        intuitive user experiences. With a keen eye for detail, Maili strives to
-        deliver designs that not only look great but also enhance user
-        satisfaction.
-      </p>
+      <p class="text-gray-500">{% trans "member-3-job" %}</p>
+      <p class="text-gray-700">{% trans "member-3-desc" %}</p>
       <p class="text-gray-700 mt-2">
         Contact Maili:
         <a class="hover:underline">maili@fyre.inc.com</a> | Phone: +1 (555)

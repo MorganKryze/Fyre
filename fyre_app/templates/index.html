@@ -14,23 +14,20 @@
     />
     <title>Fyre - Home</title>
   </head>
-  <body class="bg-gray-100 font-sans flex flex-col min-h-screen">
-    <!-- Navigation -->
+
+  <header>
     <nav
       class="bg-gradient-to-r from-blue-500 via-blue-500 to-blue-700 p-4 text-white fixed top-0 w-full z-50"
     >
       <div class="container mx-auto flex justify-center items-center">
-        <!-- Logo -->
         <img
           src="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg"
           alt="Logo"
           class="w-16 h-16"
         />
 
-        <!-- Title -->
         <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
 
-        <!-- Navigation Links -->
         <div class="space-x-4 ml-auto">
           <a href="{% url 'home' %}" class="border-b-2">{% trans "Home" %}</a>
           <a href="{% url 'analytics' %}" class="hover:underline"
@@ -52,7 +49,6 @@
                 aria-expanded="true"
               >
                 {% trans "Language" %}
-                <!-- Heroicon name: chevron-down -->
                 <svg
                   class="-mr-1 ml-2 h-5 w-5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -113,15 +109,14 @@
                     {% trans "French" %}
                   </button>
                 </form>
-                <!-- Add more languages here -->
-                <!-- Add more languages here -->
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-
+  </header>
+  <body class="bg-gray-100 font-sans flex flex-col min-h-screen">
     <!-- Hero Section -->
     <section class="bg-gray-800 text-white py-16 mt-20">
       <div class="container mx-auto text-center">
@@ -137,7 +132,6 @@
 
     <!-- Informative Sections -->
     <section class="container mx-auto my-20 mb-20">
-      <!-- Added mb-12 for vertical margin -->
       <!-- Section 1 -->
       <div class="flex items-center mb-40">
         <div class="text-left pl-8">
@@ -179,7 +173,6 @@
       </div>
     </section>
   </body>
-  <!-- Footer -->
   <footer class="bg-gray-900 text-white py-10 mt-auto">
     <div class="container mx-auto text-center">
       <p>
@@ -204,16 +197,16 @@
     var dropdown = document.getElementById('dropdown');
 
     button.addEventListener('click', function (event) {
-      event.stopPropagation(); // Prevent this click from triggering the document's click event handler
-      dropdown.classList.toggle('hidden'); // Toggle the hidden class
+      event.stopPropagation();
+      dropdown.classList.toggle('hidden');
     });
 
     dropdown.addEventListener('click', function (event) {
-      event.stopPropagation(); // Prevent this click from triggering the document's click event handler
+      event.stopPropagation();
     });
 
     document.addEventListener('click', function () {
-      dropdown.classList.add('hidden'); // Hide the dropdown
+      dropdown.classList.add('hidden');
     });
   </script>
 </html>
