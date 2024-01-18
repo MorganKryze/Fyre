@@ -14,7 +14,7 @@ SECRET_KEY = "django-insecure--qc-kfp2(xp703#l6-0q-14z$z82$t(jw3-f#gpq@$a(1e25_*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1', '[::1]']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "fyre_app"
+    "fyre_app",
 ]
 
 MIDDLEWARE = [
@@ -37,6 +37,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
 ]
 
 ROOT_URLCONF = "fyre.urls"
@@ -44,7 +45,7 @@ ROOT_URLCONF = "fyre.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -109,9 +110,19 @@ STATIC_URL = "static/"
 # STATICFILES_DIRS = [
 #     BASE_DIR / 'fyre_app/assets',
 # ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", "static")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+LANGUAGE_CODE = "en-us"
+TIME_ZONE = "UTC"
+USE_I18N = True
+USE_TZ = True
+LANGUAGES = [
+    ("en", "English"),
+    ("fr", "French"),
+]
+LOCALE_PATHS = [os.path.join(BASE_DIR, "locale")]
