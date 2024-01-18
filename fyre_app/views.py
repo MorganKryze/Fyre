@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import matplotlib.pyplot as plt
 import io
+# from django.utils.translation import gettext as _
 
 
 def index(request):
@@ -33,6 +34,3 @@ def about(request):
 
 def contact(request):
     return render(request, "contact.html")
-
-def error_500_view(request):
-    raise Exception("This is a test exception for the 500 error page.")
