@@ -1,0 +1,149 @@
+# English translations for the FYRE project.
+# Copyright (C) 2024 MorganKryze(Yann Vidamment)
+# This file is distributed under the same license as the PACKAGE package.
+# MorganKryze morgan@kodelab.fr, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-18 22:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: fyre/settings.py:116 fyre_app/templates/index.html:96
+msgid "English"
+msgstr "Anglais"
+
+#: fyre/settings.py:117 fyre_app/templates/index.html:113
+msgid "French"
+msgstr "Français"
+
+#: fyre_app/templates/index.html:35
+msgid "Home"
+msgstr "Accueil"
+
+#: fyre_app/templates/index.html:37
+msgid "Analytics"
+msgstr "Analyses"
+
+#: fyre_app/templates/index.html:40
+msgid "About"
+msgstr "À propos"
+
+#: fyre_app/templates/index.html:43
+msgid "Contact"
+msgstr "Contact"
+
+#: fyre_app/templates/index.html:54
+msgid "Language"
+msgstr "Langue"
+
+#: fyre_app/templates/index.html:128
+msgid "hero-title"
+msgstr "Améliorez vos décisions avec des analyses"
+
+#: fyre_app/templates/index.html:129
+msgid "hero-content"
+msgstr ""
+"Découvrez des informations, prenez des décisions basées sur les données et "
+"favorisez le succès de votre entreprise."
+
+#: fyre_app/templates/index.html:133
+msgid "hero-button"
+msgstr "Commencez maintenant!"
+
+#: fyre_app/templates/index.html:144
+msgid "section-1-title"
+msgstr "Fiable."
+
+#: fyre_app/templates/index.html:145
+msgid "section-1-content"
+msgstr ""
+"Notre plateforme d'analyse est construite sur une base de fiabilité. Nous "
+"comprenons l'importance de données précises et cohérentes pour éclairer "
+"votre processus de prise de décision. Avec nos solutions d'analyse fiables, "
+"vous pouvez faire confiance aux informations qui font avancer votre "
+"entreprise."
+
+#: fyre_app/templates/index.html:152
+msgid "section-2-title"
+msgstr "Efficace."
+
+#: fyre_app/templates/index.html:153
+msgid "section-2-content"
+msgstr ""
+"L'efficacité est au cœur de nos outils d'analyse. Nous reconnaissons la "
+"valeur de votre temps et de vos ressources. Nos solutions d'analyse "
+"efficaces rationalisent votre flux de travail, vous fournissant les "
+"informations dont vous avez besoin quand vous en avez besoin. Maximisez la "
+"productivité et tirez le meilleur parti de vos ressources avec notre "
+"plateforme d'analyse efficace."
+
+#: fyre_app/templates/index.html:160
+msgid "section-3-title"
+msgstr "Instructif."
+
+#: fyre_app/templates/index.html:161
+msgid "section-3-content"
+msgstr ""
+"Découvrez des informations profondes sur vos données avec notre plateforme "
+"d'analyse. Nous allons au-delà de la surface, vous aidant à découvrir des "
+"tendances, des modèles et des opportunités qui pourraient autrement passer "
+"inaperçus. Nos solutions d'analyse instructives vous permettent de prendre "
+"des décisions éclairées et de stimuler la croissance et l'amélioration au "
+"sein de votre organisation."
+
+#: fyre_app/templates/index.html:168
+msgid "section-4-title"
+msgstr "Flexible."
+
+#: fyre_app/templates/index.html:169
+msgid "section-4-content"
+msgstr ""
+"Les besoins commerciaux sont dynamiques, et notre plateforme d'analyse est "
+"conçue pour être flexible. Adaptez-vous aux changements en toute "
+"transparence avec nos solutions d'analyse flexibles. Que vous soyez en train "
+"de développer vos opérations ou de vous adapter à des conditions de marché "
+"en évolution, notre plateforme évolue avec vous. Restez agile et réactif "
+"avec nos outils d'analyse flexibles."
+
+#: fyre_app/templates/index.html:176
+msgid "section-5-title"
+msgstr "Innovant."
+
+#: fyre_app/templates/index.html:177
+msgid "section-5-content"
+msgstr ""
+"Restez à la pointe de la technologie avec nos solutions d'analyse "
+"innovantes. Nous nous engageons à améliorer continuellement et à repousser "
+"les limites de ce que l'analyse peut réaliser. Nos fonctionnalités et outils "
+"innovants garantissent que vous ne vous contentez pas de suivre les avancées "
+"de l'industrie, mais que vous menez la voie dans l'utilisation de l'analyse "
+"pour le succès stratégique."
+
+#: fyre_app/templates/index.html:191
+msgid "footer-terms"
+msgstr "Termes"
+
+#: fyre_app/templates/index.html:193
+msgid "footer-privacy"
+msgstr "Confidentialité"
+
+#: fyre_app/templates/index.html:196
+msgid "footer-disclaimer"
+msgstr ""
+"Avertissement : Ce site web est un projet étudiant et est à des fins "
+"d'information seulement."
+
+#: fyre_app/templates/index.html:198
+msgid "footer-data"
+msgstr "Les données peuvent ne pas être précises ou à jour. Veuillez ne pas utiliser ces "
+"informations pour prendre des décisions réelles."

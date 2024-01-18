@@ -1,0 +1,144 @@
+# English translations for the FYRE project.
+# Copyright (C) 2024 MorganKryze(Yann Vidamment)
+# This file is distributed under the same license as the PACKAGE package.
+# MorganKryze morgan@kodelab.fr, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-18 22:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fyre/settings.py:116 fyre_app/templates/index.html:96
+msgid "English"
+msgstr "English"
+
+#: fyre/settings.py:117 fyre_app/templates/index.html:113
+msgid "French"
+msgstr "French"
+
+#: fyre_app/templates/index.html:35
+msgid "Home"
+msgstr "Home"
+
+#: fyre_app/templates/index.html:37
+msgid "Analytics"
+msgstr "Analytics"
+
+#: fyre_app/templates/index.html:40
+msgid "About"
+msgstr "About"
+
+#: fyre_app/templates/index.html:43
+msgid "Contact"
+msgstr "Contact"
+
+#: fyre_app/templates/index.html:54
+msgid "Language"
+msgstr "Language"
+
+#: fyre_app/templates/index.html:128
+msgid "hero-title"
+msgstr "Empowering your decisions with analytics"
+
+#: fyre_app/templates/index.html:129
+msgid "hero-content"
+msgstr ""
+"Unlock insights, make data-driven decisions, and drive business success."
+
+#: fyre_app/templates/index.html:133
+msgid "hero-button"
+msgstr "Start now!"
+
+#: fyre_app/templates/index.html:144
+msgid "section-1-title"
+msgstr "Reliable."
+
+#: fyre_app/templates/index.html:145
+msgid "section-1-content"
+msgstr ""
+"Our analytics platform is built on a foundation of reliability. We "
+"understand the importance of accurate and consistent data to empower your "
+"decision-making process. With our reliable analytics solutions, you can "
+"trust the insights that drive your business forward."
+
+#: fyre_app/templates/index.html:152
+msgid "section-2-title"
+msgstr "Efficient."
+
+#: fyre_app/templates/index.html:153
+msgid "section-2-content"
+msgstr ""
+" Efficiency is at the core of our analytics tools. We recognize the value of "
+"your time and resources. Our efficient analytics solutions streamline your "
+"workflow, providing you with the information you need when you need it. "
+"Maximize productivity and make the most of your resources with our efficient "
+"analytics platform."
+
+#: fyre_app/templates/index.html:160
+msgid "section-3-title"
+msgstr "Insightful."
+
+#: fyre_app/templates/index.html:161
+msgid "section-3-content"
+msgstr ""
+"Unlock deep insights into your data with our analytics platform. We go "
+"beyond the surface, helping you uncover trends, patterns, and opportunities "
+"that may otherwise go unnoticed. Our insightful analytics solutions empower "
+"you to make informed decisions and drive growth and improvement within your "
+"organization."
+
+#: fyre_app/templates/index.html:168
+msgid "section-4-title"
+msgstr "Flexible."
+
+#: fyre_app/templates/index.html:169
+msgid "section-4-content"
+msgstr ""
+"Business needs are dynamic, and our analytics platform is designed to be "
+"flexible. Adapt to changes seamlessly with our flexible analytics solutions. "
+"Whether you're scaling your operations or adjusting to evolving market "
+"conditions, our platform grows with you. Stay agile and responsive with our "
+"flexible analytics tools."
+
+#: fyre_app/templates/index.html:176
+msgid "section-5-title"
+msgstr "Innovative."
+
+#: fyre_app/templates/index.html:177
+msgid "section-5-content"
+msgstr ""
+"Stay ahead of the curve with our innovative analytics solutions. We are "
+"committed to continuous improvement and pushing the boundaries of what "
+"analytics can achieve. Our innovative features and tools ensure that you not "
+"only keep pace with industry advancements but lead the way in leveraging "
+"analytics for strategic success."
+
+#: fyre_app/templates/index.html:191
+msgid "footer-terms"
+msgstr "Terms"
+
+#: fyre_app/templates/index.html:193
+msgid "footer-privacy"
+msgstr "Privacy"
+
+#: fyre_app/templates/index.html:196
+msgid "footer-disclaimer"
+msgstr ""
+"Disclaimer: This website is a student project and is for informational "
+"purposes only. "
+
+#: fyre_app/templates/index.html:198
+msgid "footer-data"
+msgstr ""
+"The data may not be accurate or up-to-date. Please do not use this "
+"information to make real decisions."
