@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block nav_items %} {% load i18n %}
+<a href="{% url 'home' %}" class="hover:underline">{% trans "Home" %}</a>
+<a href="{% url 'analytics' %}" class="border-b-2">{% trans "Analytics" %}</a>
+<a href="{% url 'about' %}" class="hover:underline">{% trans "About" %}</a>
+<a href="{% url 'contact' %}" class="hover:underline">{% trans "Contact" %}</a>
+{% endblock %} {% block content %} {% load i18n %}
+<div class="flex mt-10 ml-4">
+  <a
+    href="{% url 'analytics' %}"
+    class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600"
+  >
+    &#8592; {% trans "Back to Analytics" %}
+  </a>
+</div>
+<h1 class="text-5xl font-bold mb-4 text-center">{% trans "2022 Analysis" %}</h1>
+
+<div style="display: flex; justify-content: center">{{ data|safe }}</div>
+
+{% endblock %}
