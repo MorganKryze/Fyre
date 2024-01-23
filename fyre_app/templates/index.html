@@ -181,9 +181,9 @@
           2024 Find your Real Estate</a
         >
         &bull;
-        <a class="hover:underline"> {% trans "footer-terms" %}</a>
+        <a href="{% url 'terms' %}" class="hover:underline"> {% trans "footer-terms" %}</a>
         &bull;
-        <a class="hover:underline">{% trans "footer-privacy" %}</a>
+        <a href="{% url 'privacy' %}" class="hover:underline">{% trans "footer-privacy" %}</a>
       </p>
       <p class="mt-2 text-xs text-gray-500">
         {% trans "footer-disclaimer" %}

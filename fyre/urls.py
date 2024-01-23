@@ -23,6 +23,6 @@ from django.urls import include, path
 
 urlpatterns = i18n_patterns(
     path("admin/", admin.site.urls),
-    path('i18n/', include(i18n)),
+    path("i18n/", include(i18n)),
     path("", include("fyre_app.urls")),
 )

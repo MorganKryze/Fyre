@@ -1,0 +1,33 @@
+{% extends "base.html" %} {%block nav_items %}{% load i18n %}
+<a href="{% url 'home' %}" class="hover:underline">{% trans "Home" %}</a>
+<a href="{% url 'analytics' %}" class="hover:underline"
+  >{% trans "Analytics" %}</a
+>
+<a href="{% url 'about' %}" class="hover:underline">{% trans "About" %}</a>
+<a href="{% url 'contact' %}" class="hover:underline">{% trans "Contact" %}</a
+>{% endblock %} {% block content %}
+<h1 class="text-5xl font-bold mb-4 text-center mt-20">
+  {% trans "terms-title"%}
+</h1>
+
+<p class="text-center mb-4">{% trans "terms-content"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "terms-acceptance-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "terms-acceptance-content"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "terms-privacy-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "terms-privacy-content"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "terms-changes-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "terms-changes-content"%}</p>
+
+{% endblock %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-19 11:48+0000\n"
+"POT-Creation-Date: 2024-01-23 18:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: fyre/settings.py:116 fyre_app/templates/base.html:83
+#: fyre/settings.py:113 fyre_app/templates/base.html:83
 #: fyre_app/templates/index.html:92
 msgid "English"
 msgstr "English"
 
-#: fyre/settings.py:117 fyre_app/templates/base.html:100
+#: fyre/settings.py:114 fyre_app/templates/base.html:100
 #: fyre_app/templates/index.html:109
 msgid "French"
 msgstr "French"
@@ -32,21 +32,21 @@ msgstr "French"
 msgid "Language"
 msgstr "Language"
 
-#: fyre_app/templates/base.html:123 fyre_app/templates/index.html:184
+#: fyre_app/templates/base.html:124 fyre_app/templates/index.html:184
 msgid "footer-terms"
 msgstr "Terms"
 
-#: fyre_app/templates/base.html:125 fyre_app/templates/index.html:186
+#: fyre_app/templates/base.html:127 fyre_app/templates/index.html:186
 msgid "footer-privacy"
 msgstr "Privacy"
 
-#: fyre_app/templates/base.html:128 fyre_app/templates/index.html:189
+#: fyre_app/templates/base.html:130 fyre_app/templates/index.html:189
 msgid "footer-disclaimer"
 msgstr ""
 "Disclaimer: This website is a student project and is for informational "
 "purposes only. "
 
-#: fyre_app/templates/base.html:130 fyre_app/templates/index.html:191
+#: fyre_app/templates/base.html:132 fyre_app/templates/index.html:191
 msgid "footer-data"
 msgstr ""
 "The data may not be accurate or up-to-date. Please do not use this "
@@ -60,6 +60,8 @@ msgstr ""
 #: fyre_app/templates/pages/analytics/2022.html:2
 #: fyre_app/templates/pages/analytics/custom.html:2
 #: fyre_app/templates/pages/contact.html:2
+#: fyre_app/templates/pages/privacy.html:2
+#: fyre_app/templates/pages/terms.html:2
 msgid "Home"
 msgstr "Home"
 
@@ -71,6 +73,8 @@ msgstr "Home"
 #: fyre_app/templates/pages/analytics/2022.html:3
 #: fyre_app/templates/pages/analytics/custom.html:3
 #: fyre_app/templates/pages/contact.html:4
+#: fyre_app/templates/pages/privacy.html:3
+#: fyre_app/templates/pages/terms.html:4
 msgid "Analytics"
 msgstr "Analytics"
 
@@ -82,6 +86,8 @@ msgstr "Analytics"
 #: fyre_app/templates/pages/analytics/2022.html:4
 #: fyre_app/templates/pages/analytics/custom.html:4
 #: fyre_app/templates/pages/contact.html:6
+#: fyre_app/templates/pages/privacy.html:4
+#: fyre_app/templates/pages/terms.html:6
 msgid "About"
 msgstr "About"
 
@@ -93,6 +99,8 @@ msgstr "About"
 #: fyre_app/templates/pages/analytics/2022.html:5
 #: fyre_app/templates/pages/analytics/custom.html:5
 #: fyre_app/templates/pages/contact.html:7
+#: fyre_app/templates/pages/privacy.html:5
+#: fyre_app/templates/pages/terms.html:7
 msgid "Contact"
 msgstr "Contact"
 
@@ -285,6 +293,10 @@ msgstr "Content of the 2022 analysis"
 msgid "Back to Analytics"
 msgstr "Back to Analytics"
 
+#: fyre_app/templates/pages/analytics/custom.html:17
+msgid "SoonTM"
+msgstr "Soon"
+
 #: fyre_app/templates/pages/contact.html:27
 msgid "member-1-job"
 msgstr "Web Developer"
@@ -317,3 +329,84 @@ msgstr ""
 "Maili is a creative UX designer passionate about crafting meaningful and "
 "intuitive user experiences. With a keen eye for detail, Maili strives to "
 "deliver designs that not only look great but also enhance user satisfaction."
+
+#: fyre_app/templates/pages/privacy.html:8
+msgid "privacy-title"
+msgstr "Privacy Policy"
+
+#: fyre_app/templates/pages/privacy.html:11
+msgid "privacy-title-desc"
+msgstr ""
+"Welcome to our Privacy Policy. You'll notice it's pretty empty here. That's "
+"because we don't collect any of your data. Nada. Zilch. Zero."
+
+#: fyre_app/templates/pages/privacy.html:14
+msgid "privacy-personal-title"
+msgstr "Personal Information"
+
+#: fyre_app/templates/pages/privacy.html:17
+msgid "privacy-personal-desc"
+msgstr ""
+"Personal information? What's that? We certainly wouldn't know because we "
+"don't collect any."
+
+#: fyre_app/templates/pages/privacy.html:20
+msgid "privacy-cookies-title"
+msgstr "Cookies"
+
+#: fyre_app/templates/pages/privacy.html:23
+msgid "privacy-cookies-desc"
+msgstr ""
+"The only cookies we know are the ones we eat. Our website doesn't use them."
+
+#: fyre_app/templates/pages/privacy.html:26
+msgid "privacy-third-title"
+msgstr "Third-Party Services"
+
+#: fyre_app/templates/pages/privacy.html:29
+msgid "privacy-third-content"
+msgstr ""
+"Third-party services may collect information about you, but not on our site. "
+"We're a no-data-collection zone."
+
+#: fyre_app/templates/pages/privacy.html:32
+msgid "privacy-changes-title"
+msgstr "Changes to This Privacy Policy"
+
+#: fyre_app/templates/pages/privacy.html:35
+msgid "privacy-changes-content"
+msgstr ""
+"We may update our Privacy Policy from time to time. But let's be honest, "
+"there's not much to update here."
+
+#: fyre_app/templates/pages/terms.html:10
+msgid "terms-title"
+msgstr "Terms of Service"
+
+#: fyre_app/templates/pages/terms.html:13
+msgid "terms-content"
+msgstr "Welcome to our Terms of Service. We're glad you're here, and we hope you enjoy everything we have to offer."
+
+#: fyre_app/templates/pages/terms.html:16
+msgid "terms-acceptance-title"
+msgstr "Acceptance of Terms"
+
+#: fyre_app/templates/pages/terms.html:19
+msgid "terms-acceptance-content"
+msgstr "By using our site, you agree to these terms. Don't worry, we're not asking for much. Just your eternal loyalty. Just kidding!"
+
+#: fyre_app/templates/pages/terms.html:22
+msgid "terms-privacy-title"
+msgstr "Privacy Policy"
+
+#: fyre_app/templates/pages/terms.html:25
+msgid "terms-privacy-content"
+msgstr "We respect your privacy. In fact, we don't even know who you are. We don't collect any data. We're probably the most private site you'll ever visit."
+
+#: fyre_app/templates/pages/terms.html:28
+msgid "terms-changes-title"
+msgstr "Changes to These Terms"
+
+#: fyre_app/templates/pages/terms.html:31
+msgid "terms-changes-content"
+msgstr "We may update our Terms of Service from time to time. But let's be honest, there's not much to update here."
