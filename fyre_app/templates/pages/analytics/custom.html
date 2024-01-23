@@ -7,13 +7,13 @@
 <div class="flex mt-10 ml-4">
   <a
     href="{% url 'analytics' %}"
-    class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600"
+    class="bg-blue-500 text-white px-6 py-3 rounded-full fixed hover:bg-blue-600"
   >
     &#8592; {% trans "Back to Analytics" %}
   </a>
 </div>
 <h1 class="text-5xl font-bold mb-4 text-center">{% trans "Custom Analysis" %}</h1>
 
-<div style="display: flex; justify-content: center">{{ data|safe }}</div>
+<p class="text-center mt-16">{% trans "SoonTM" %}&trade;</p>
 
 {% endblock %}

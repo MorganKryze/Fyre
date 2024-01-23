@@ -1,0 +1,37 @@
+{% extends "base.html" %} {%block nav_items %} {% load i18n %}
+<a href="{% url 'home' %}" class="hover:underline">{% trans "Home" %}</a>
+<a href="{% url 'analytics' %}" class="hover:underline">{% trans "Analytics" %}</a>
+<a href="{% url 'about' %}" class="hover:underline">{% trans "About" %}</a>
+<a href="{% url 'contact' %}" class="hover:underline">{% trans "Contact" %}</a>
+{% endblock %} {% block content %} {% load i18n %}
+<h1 class="text-5xl font-bold mb-4 text-center mt-20">
+  {% trans "privacy-title"%}
+</h1>
+
+<p class="text-center mb-4">{% trans "privacy-title-desc"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "privacy-personal-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "privacy-personal-desc"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "privacy-cookies-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "privacy-cookies-desc"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "privacy-third-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "privacy-third-content"%}</p>
+
+<h2 class="text-4xl font-bold mb-4 text-center">
+  {% trans "privacy-changes-title"%}
+</h2>
+
+<p class="text-center mb-4">{% trans "privacy-changes-content"%}</p>
+
+{% endblock %}

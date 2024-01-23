@@ -120,9 +120,13 @@
           2024 Find your Real Estate</a
         >
         &bull;
-        <a class="hover:underline"> {% trans "footer-terms" %}</a>
+        <a href="{% url 'terms' %}" class="hover:underline">
+          {% trans "footer-terms" %}</a
+        >
         &bull;
-        <a class="hover:underline">{% trans "footer-privacy" %}</a>
+        <a href="{% url 'privacy' %}" class="hover:underline"
+          >{% trans "footer-privacy" %}</a
+        >
       </p>
       <p class="mt-2 text-xs text-gray-500">
         {% trans "footer-disclaimer" %}
@@ -136,16 +140,16 @@
     var dropdown = document.getElementById('dropdown');
 
     button.addEventListener('click', function (event) {
-      event.stopPropagation(); // Prevent this click from triggering the document's click event handler
-      dropdown.classList.toggle('hidden'); // Toggle the hidden class
+      event.stopPropagation();
+      dropdown.classList.toggle('hidden');
     });
 
     dropdown.addEventListener('click', function (event) {
-      event.stopPropagation(); // Prevent this click from triggering the document's click event handler
+      event.stopPropagation();
     });
 
     document.addEventListener('click', function () {
-      dropdown.classList.add('hidden'); // Hide the dropdown
+      dropdown.classList.add('hidden');
     });
   </script>
 </html>

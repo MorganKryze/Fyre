@@ -20,6 +20,14 @@ def contact(request):
     return render(request, "pages/contact.html")
 
 
+def terms(request):
+    return render(request, "pages/terms.html")
+
+
+def privacy(request):
+    return render(request, "pages/privacy.html")
+
+
 def analytics2019(request):
     plt.switch_backend("Agg")  # Switch to Agg backend
     plt.plot(range(10))
