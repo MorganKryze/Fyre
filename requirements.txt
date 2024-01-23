@@ -4,7 +4,6 @@ charset-normalizer==3.3.2
 contourpy==1.2.0
 cycler==0.12.1
 Django==4.2.9
-django-rosetta==0.10.0
 fonttools==4.47.2
 idna==3.6
 importlib-resources==6.1.1

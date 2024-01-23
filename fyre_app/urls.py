@@ -2,8 +2,8 @@ from django.urls import path
 from . import views
 
 
-# from django.conf import settings
-# from django.conf.urls.static import static
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("", views.index, name="home"),
@@ -17,5 +17,4 @@ urlpatterns = [
     path("analytics/2021/", views.analytics2021, name="analytics_2021"),
     path("analytics/2022/", views.analytics2022, name="analytics_2022"),
     path("analytics/custom/", views.analytics_custom, name="analytics_custom"),
-]
-# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

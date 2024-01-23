@@ -29,23 +29,7 @@ def privacy(request):
 
 
 def analytics2019(request):
-    plt.switch_backend("Agg")  # Switch to Agg backend
-    plt.plot(range(10))
-    plt.title("Simple Plot for demo purpose")
-    fig = plt.gcf()
-
-    fig.patch.set_facecolor("none")
-    fig.patch.set_alpha(0)
-
-    # Save the figure to a BytesIO object
-    buf = io.BytesIO()
-    fig.savefig(buf, format="svg", transparent=True)
-    buf.seek(0)
-
-    # Get the SVG data as a string
-    svg = buf.getvalue().decode("utf-8")
-
-    return render(request, "pages/analytics/2019.html", {"data": svg})
+    return render(request, "pages/analytics/2019.html")
 
 
 def analytics2020(request):

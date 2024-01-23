@@ -3,7 +3,7 @@
 <a href="{% url 'analytics' %}" class="border-b-2">{% trans "Analytics" %}</a>
 <a href="{% url 'about' %}" class="hover:underline">{% trans "About" %}</a>
 <a href="{% url 'contact' %}" class="hover:underline">{% trans "Contact" %}</a>
-{% endblock %} {% block content %} {% load i18n %}
+{% endblock %} {% block content %} {% load i18n %}{% load static %}
 <div class="flex mt-10 ml-4">
   <a
     href="{% url 'analytics' %}"
@@ -14,6 +14,8 @@
 </div>
 <h1 class="text-5xl font-bold mb-4 text-center">{% trans "2019 Analysis" %}</h1>
 
-<div style="display: flex; justify-content: center">{{ data|safe }}</div>
+<div style="display: flex; justify-content: center">
+  <img src="{% static 'plots/test.svg' %}" alt="Notes" />
+</div>
 
 {% endblock %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 18:36+0000\n"
+"POT-Creation-Date: 2024-01-23 19:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,17 +36,17 @@ msgstr "Langue"
 msgid "footer-terms"
 msgstr "Termes"
 
-#: fyre_app/templates/base.html:127 fyre_app/templates/index.html:186
+#: fyre_app/templates/base.html:128 fyre_app/templates/index.html:186
 msgid "footer-privacy"
 msgstr "Confidentialité"
 
-#: fyre_app/templates/base.html:130 fyre_app/templates/index.html:189
+#: fyre_app/templates/base.html:132 fyre_app/templates/index.html:189
 msgid "footer-disclaimer"
 msgstr ""
 "Avertissement : Ce site web est un projet étudiant et est à des fins "
 "d'information seulement."
 
-#: fyre_app/templates/base.html:132 fyre_app/templates/index.html:191
+#: fyre_app/templates/base.html:134 fyre_app/templates/index.html:191
 msgid "footer-data"
 msgstr ""
 "Les données peuvent ne pas être précises ou à jour. Veuillez ne pas utiliser "
@@ -398,7 +398,9 @@ msgstr "Conditions d'utilisation"
 
 #: fyre_app/templates/pages/terms.html:13
 msgid "terms-content"
-msgstr "Bienvenue à nos Conditions d'utilisation. Nous sommes ravis que vous soyez ici et nous espérons que vous apprécierez tout ce que nous avons à offrir."
+msgstr ""
+"Bienvenue à nos Conditions d'utilisation. Nous sommes ravis que vous soyez "
+"ici et nous espérons que vous apprécierez tout ce que nous avons à offrir."
 
 #: fyre_app/templates/pages/terms.html:16
 msgid "terms-acceptance-title"
@@ -406,7 +408,10 @@ msgstr "Acceptation des Conditions"
 
 #: fyre_app/templates/pages/terms.html:19
 msgid "terms-acceptance-content"
-msgstr "En utilisant notre site, vous acceptez ces conditions. Ne vous inquiétez pas, nous ne demandons pas grand-chose. Juste votre loyauté éternelle. Juste pour rire!"
+msgstr ""
+"En utilisant notre site, vous acceptez ces conditions. Ne vous inquiétez "
+"pas, nous ne demandons pas grand-chose. Juste votre loyauté éternelle. Juste "
+"pour rire!"
 
 #: fyre_app/templates/pages/terms.html:22
 msgid "terms-privacy-title"
@@ -414,7 +419,10 @@ msgstr "Politique de Confidentialité"
 
 #: fyre_app/templates/pages/terms.html:25
 msgid "terms-privacy-content"
-msgstr "Nous respectons votre vie privée. En fait, nous ne savons même pas qui vous êtes. Nous ne collectons aucune donnée. Nous sommes probablement le site le plus privé que vous visiterez jamais."
+msgstr ""
+"Nous respectons votre vie privée. En fait, nous ne savons même pas qui vous "
+"êtes. Nous ne collectons aucune donnée. Nous sommes probablement le site le "
+"plus privé que vous visiterez jamais."
 
 #: fyre_app/templates/pages/terms.html:28
 msgid "terms-changes-title"
@@ -422,4 +430,6 @@ msgstr "Modifications de ces Conditions"
 
 #: fyre_app/templates/pages/terms.html:31
 msgid "terms-changes-content"
-msgstr "Nous pouvons mettre à jour nos Conditions d'utilisation de temps en temps. Mais soyons honnêtes, il n'y a pas grand-chose à mettre à jour ici."
+msgstr ""
+"Nous pouvons mettre à jour nos Conditions d'utilisation de temps en temps. "
+"Mais soyons honnêtes, il n'y a pas grand-chose à mettre à jour ici."
