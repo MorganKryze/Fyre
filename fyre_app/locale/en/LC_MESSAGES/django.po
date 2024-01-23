@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 18:36+0000\n"
+"POT-Creation-Date: 2024-01-23 19:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,17 +36,17 @@ msgstr "Language"
 msgid "footer-terms"
 msgstr "Terms"
 
-#: fyre_app/templates/base.html:127 fyre_app/templates/index.html:186
+#: fyre_app/templates/base.html:128 fyre_app/templates/index.html:186
 msgid "footer-privacy"
 msgstr "Privacy"
 
-#: fyre_app/templates/base.html:130 fyre_app/templates/index.html:189
+#: fyre_app/templates/base.html:132 fyre_app/templates/index.html:189
 msgid "footer-disclaimer"
 msgstr ""
 "Disclaimer: This website is a student project and is for informational "
 "purposes only. "
 
-#: fyre_app/templates/base.html:132 fyre_app/templates/index.html:191
+#: fyre_app/templates/base.html:134 fyre_app/templates/index.html:191
 msgid "footer-data"
 msgstr ""
 "The data may not be accurate or up-to-date. Please do not use this "
@@ -385,7 +385,9 @@ msgstr "Terms of Service"
 
 #: fyre_app/templates/pages/terms.html:13
 msgid "terms-content"
-msgstr "Welcome to our Terms of Service. We're glad you're here, and we hope you enjoy everything we have to offer."
+msgstr ""
+"Welcome to our Terms of Service. We're glad you're here, and we hope you "
+"enjoy everything we have to offer."
 
 #: fyre_app/templates/pages/terms.html:16
 msgid "terms-acceptance-title"
@@ -393,7 +395,9 @@ msgstr "Acceptance of Terms"
 
 #: fyre_app/templates/pages/terms.html:19
 msgid "terms-acceptance-content"
-msgstr "By using our site, you agree to these terms. Don't worry, we're not asking for much. Just your eternal loyalty. Just kidding!"
+msgstr ""
+"By using our site, you agree to these terms. Don't worry, we're not asking "
+"for much. Just your eternal loyalty. Just kidding!"
 
 #: fyre_app/templates/pages/terms.html:22
 msgid "terms-privacy-title"
@@ -401,7 +405,9 @@ msgstr "Privacy Policy"
 
 #: fyre_app/templates/pages/terms.html:25
 msgid "terms-privacy-content"
-msgstr "We respect your privacy. In fact, we don't even know who you are. We don't collect any data. We're probably the most private site you'll ever visit."
+msgstr ""
+"We respect your privacy. In fact, we don't even know who you are. We don't "
+"collect any data. We're probably the most private site you'll ever visit."
 
 #: fyre_app/templates/pages/terms.html:28
 msgid "terms-changes-title"
@@ -409,4 +415,6 @@ msgstr "Changes to These Terms"
 
 #: fyre_app/templates/pages/terms.html:31
 msgid "terms-changes-content"
-msgstr "We may update our Terms of Service from time to time. But let's be honest, there's not much to update here."
+msgstr ""
+"We may update our Terms of Service from time to time. But let's be honest, "
+"there's not much to update here."
