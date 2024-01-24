@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-23 19:10+0000\n"
+"POT-Creation-Date: 2024-01-24 23:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: fyre/settings.py:113 fyre_app/templates/base.html:83
+#: fyre/settings.py:111 fyre_app/templates/base.html:83
 #: fyre_app/templates/index.html:92
 msgid "English"
 msgstr "Anglais"
 
-#: fyre/settings.py:114 fyre_app/templates/base.html:100
+#: fyre/settings.py:112 fyre_app/templates/base.html:100
 #: fyre_app/templates/index.html:109
 msgid "French"
 msgstr "Français"
@@ -301,6 +301,9 @@ msgstr "Contenu de l'analyse 2022"
 msgid "Back to Analytics"
 msgstr "Retour"
 
+#: fyre_app/templates/pages/analytics/2020.html:17
+#: fyre_app/templates/pages/analytics/2021.html:17
+#: fyre_app/templates/pages/analytics/2022.html:17
 #: fyre_app/templates/pages/analytics/custom.html:17
 msgid "SoonTM"
 msgstr "Bientôt"
