@@ -17,13 +17,13 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
   <div style="width: 80%; max-width: 800px; margin: 10px;">
     <div style="position: relative; padding-bottom: 75%;">
-      <iframe src="{% static "plots/2019/first.html" %}" style="position: absolute; width: 100%; height: 100%; border: none;"></iframe>
+      {{ first_plot|safe }}
     </div>
   </div>
   
   <div style="width: 80%; max-width: 800px; margin: 10px;">
     <div style="position: relative; padding-bottom: 75%;">
-      <iframe src="{% static "plots/2019/second.html" %}" style="position: absolute; width: 100%; height: 100%; border: none;"></iframe>
+      {{ second_plot|safe }}
     </div>
   </div>
 </div>
