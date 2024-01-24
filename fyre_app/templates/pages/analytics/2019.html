@@ -17,13 +17,13 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
   <div style="width: 80%; max-width: 800px; margin: 10px;">
     <div style="position: relative; padding-bottom: 75%;">
-      {{ first_plot|safe }}
+      {% include "pages/analytics/plots/2019/first.html"%}
     </div>
   </div>
   
   <div style="width: 80%; max-width: 800px; margin: 10px;">
     <div style="position: relative; padding-bottom: 75%;">
-      {{ second_plot|safe }}
+      {% include "pages/analytics/plots/2019/second.html"%}
     </div>
   </div>
 </div>
