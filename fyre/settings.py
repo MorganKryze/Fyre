@@ -122,7 +122,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build")
 
-# MEDIA_URL = "/plots/"
+MEDIA_URL = "/plots/"
 
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
