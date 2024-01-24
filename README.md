@@ -22,7 +22,15 @@ git clone https://github.com/MorganKryze/Fyre.git
 Then install the dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r envs/django/requirements.txt
+```
+
+If you want to run the jupyter notebooks, you'll also need to install the following dependencies:
+
+Then install the dependencies:
+
+```bash
+pip install -r envs/jupyter/requirements.txt
 ```
 
 That's it! You're ready to go.
