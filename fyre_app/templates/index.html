@@ -9,9 +9,23 @@
       rel="stylesheet"
     />
     <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
       rel="icon"
       href="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg"
     />
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      body.visible {
+        opacity: 1;
+      }
+    </style>
     <title>Fyre - Home</title>
   </head>
 
@@ -29,17 +43,29 @@
         <h1 class="text-3xl font-bold ml-4">Find Your Real Estate</h1>
 
         <div class="space-x-4 ml-auto">
-          <a href="{% url 'home' %}" class="border-b-2">{% trans "Home" %}</a>
-          <a href="{% url 'analytics' %}" class="hover:underline"
+          <a
+            href="{% url 'home' %}"
+            class="border-b-2 transition-transform duration-500 ease-in-out transform hover:scale-110"
+            >{% trans "Home" %}</a
+          >
+          <a
+            href="{% url 'analytics' %}"
+            class="hover:underline transition-transform duration-500 ease-in-out transform hover:scale-110"
             >{% trans "Analytics" %}</a
           >
-          <a href="{% url 'about' %}" class="hover:underline"
+          <a
+            href="{% url 'about' %}"
+            class="hover:underline transition-transform duration-500 ease-in-out transform hover:scale-110"
             >{% trans "About" %}</a
           >
-          <a href="{% url 'contact' %}" class="hover:underline"
+          <a
+            href="{% url 'contact' %}"
+            class="hover:underline transition-transform duration-500 ease-in-out transform hover:scale-110"
             >{% trans "Contact" %}</a
           >
-          <div class="relative inline-block text-left">
+          <div
+            class="relative inline-block text-left transition-transform duration-500 ease-in-out transform hover:scale-110"
+          >
             <div>
               <button
                 type="button"
@@ -133,7 +159,7 @@
     <!-- Informative Sections -->
     <section class="container mx-auto my-20 mb-20">
       <!-- Section 1 -->
-      <div class="flex items-center mb-40">
+      <div class="flex items-center mb-40" data-aos="fade-in">
         <div class="text-left pl-8">
           <h2 class="text-5xl font-bold mb-2">{% trans "section-1-title" %}</h2>
           <p class="text-lg text-gray-500">{% trans "section-1-content" %}</p>
@@ -141,7 +167,7 @@
       </div>
 
       <!-- Section 2 -->
-      <div class="flex items-center mb-40">
+      <div class="flex items-center mb-40" data-aos="fade-in">
         <div class="text-right pr-8">
           <h2 class="text-5xl font-bold mb-2">{% trans "section-2-title" %}</h2>
           <p class="text-lg text-gray-500">{% trans "section-2-content" %}</p>
@@ -149,7 +175,7 @@
       </div>
 
       <!-- Section 3 -->
-      <div class="flex items-center mb-40">
+      <div class="flex items-center mb-40" data-aos="fade-in">
         <div class="text-left pl-8">
           <h2 class="text-5xl font-bold mb-2">{% trans "section-3-title" %}</h2>
           <p class="text-lg text-gray-500">{% trans "section-3-content" %}</p>
@@ -157,7 +183,7 @@
       </div>
 
       <!-- Section 4 -->
-      <div class="flex items-center mb-40">
+      <div class="flex items-center mb-40" data-aos="fade-in">
         <div class="text-right pr-8">
           <h2 class="text-5xl font-bold mb-2">{% trans "section-4-title" %}</h2>
           <p class="text-lg text-gray-500">{% trans "section-4-content" %}</p>
@@ -165,7 +191,7 @@
       </div>
 
       <!-- Section 5 -->
-      <div class="flex items-center mb-40">
+      <div class="flex items-center mb-40" data-aos="fade-in">
         <div class="text-left pl-8">
           <h2 class="text-5xl font-bold mb-2">{% trans "section-5-title" %}</h2>
           <p class="text-lg text-gray-500">{% trans "section-5-content" %}</p>
@@ -181,9 +207,13 @@
           2024 Find your Real Estate</a
         >
         &bull;
-        <a href="{% url 'terms' %}" class="hover:underline"> {% trans "footer-terms" %}</a>
+        <a href="{% url 'terms' %}" class="hover:underline">
+          {% trans "footer-terms" %}</a
+        >
         &bull;
-        <a href="{% url 'privacy' %}" class="hover:underline">{% trans "footer-privacy" %}</a>
+        <a href="{% url 'privacy' %}" class="hover:underline"
+          >{% trans "footer-privacy" %}</a
+        >
       </p>
       <p class="mt-2 text-xs text-gray-500">
         {% trans "footer-disclaimer" %}
@@ -207,6 +237,22 @@
 
     document.addEventListener('click', function () {
       dropdown.classList.add('hidden');
+    });
+  </script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // After the page has loaded, add the "visible" class to the body
+      document.body.classList.add('visible');
+    });
+
+    window.addEventListener('beforeunload', function () {
+      // Before the page unloads, remove the "visible" class from the body
+      document.body.classList.remove('visible');
     });
   </script>
 </html>

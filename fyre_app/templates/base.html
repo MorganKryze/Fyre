@@ -12,6 +12,16 @@
       rel="icon"
       href="https://raw.githubusercontent.com/MorganKryze/Fyre/main/assets/img/home.svg"
     />
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      body.visible {
+        opacity: 1;
+      }
+    </style>
     <title>Find Your Real Estate</title>
   </head>
 
@@ -154,4 +164,16 @@
   </script>
 
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // After the page has loaded, add the "visible" class to the body
+      document.body.classList.add('visible');
+    });
+
+    window.addEventListener('beforeunload', function () {
+      // Before the page unloads, remove the "visible" class from the body
+      document.body.classList.remove('visible');
+    });
+  </script>
 </html>
