@@ -25,8 +25,14 @@ def privacy(request):
     return render(request, "pages/privacy.html")
 
 
-def analytics2019(request):
-    return render(request, "pages/analytics/2019.html")
+def analytics_2019_residences(request):
+    return render(request, "pages/analytics/2019/residences.html")
+
+def analytics_2019_buisness(request):
+    return render(request, "pages/analytics/2019/buisness.html")
+
+def analytics_2019_general(request):
+    return render(request, "pages/analytics/2019/general.html")
 
 
 def analytics2020(request):
