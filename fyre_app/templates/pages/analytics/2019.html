@@ -15,18 +15,19 @@
 <h1 class="text-5xl font-bold mb-4 text-center">{% trans "2019 Analysis" %}</h1>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <div style="width: 80%; max-width: 800px; margin: 10px;">
-    <div style="position: relative; padding-bottom: 75%;">
+
+<div class="flex flex-wrap justify-center">
+  <div class="w-4/5 max-w-xl mx-2">
+    <div class="relative pb-3/4">
       {% include "pages/analytics/plots/2019/first.html"%}
     </div>
   </div>
-  
-  {% comment %} <div style="width: 80%; max-width: 800px; margin: 10px;">
-    <div style="position: relative; padding-bottom: 75%;">
+
+  <div class="w-4/5 max-w-xl mx-2">
+    <div class="relative pb-3/4">
       {% include "pages/analytics/plots/2019/second.html"%}
     </div>
-  </div> {% endcomment %}
+  </div>
 </div>
 
 {% endblock %}

@@ -30,12 +30,10 @@ def analytics2019(request):
 
 
 def analytics2020(request):
-
     return render(request, "pages/analytics/2020.html")
 
 
 def analytics2021(request):
-
     return render(request, "pages/analytics/2021.html")
 
 
@@ -44,5 +42,4 @@ def analytics2022(request):
 
 
 def analytics_custom(request):
-
     return render(request, "pages/analytics/custom.html")
