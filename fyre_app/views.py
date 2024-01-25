@@ -1,6 +1,4 @@
 from django.shortcuts import render
-import os
-from django.conf import settings
 
 
 def index(request):
@@ -28,11 +26,7 @@ def privacy(request):
 
 
 def analytics2019(request):
-    with open(os.path.join(settings.BASE_DIR, 'assets/plots/2019/first.html'), 'r') as f:
-        first_plot = f.read()
-    with open(os.path.join(settings.BASE_DIR, 'assets/plots/2019/second.html'), 'r') as f:
-        second_plot = f.read()
-    return render(request, "pages/analytics/2019.html", {'first_plot': first_plot, 'second_plot': second_plot})
+    return render(request, "pages/analytics/2019.html")
 
 
 def analytics2020(request):
