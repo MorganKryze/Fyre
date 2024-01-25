@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 19:10+0000\n"
+"POT-Creation-Date: 2024-01-25 22:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,10 +54,18 @@ msgstr ""
 
 #: fyre_app/templates/index.html:32 fyre_app/templates/pages/about.html:2
 #: fyre_app/templates/pages/analytics.html:2
-#: fyre_app/templates/pages/analytics/2019.html:2
-#: fyre_app/templates/pages/analytics/2020.html:2
-#: fyre_app/templates/pages/analytics/2021.html:2
-#: fyre_app/templates/pages/analytics/2022.html:2
+#: fyre_app/templates/pages/analytics/2019/buisness.html:2
+#: fyre_app/templates/pages/analytics/2019/general.html:2
+#: fyre_app/templates/pages/analytics/2019/residences.html:2
+#: fyre_app/templates/pages/analytics/2020/buisness.html:2
+#: fyre_app/templates/pages/analytics/2020/general.html:2
+#: fyre_app/templates/pages/analytics/2020/residences.html:2
+#: fyre_app/templates/pages/analytics/2021/buisness.html:2
+#: fyre_app/templates/pages/analytics/2021/general.html:2
+#: fyre_app/templates/pages/analytics/2021/residences.html:2
+#: fyre_app/templates/pages/analytics/2022/buisness.html:2
+#: fyre_app/templates/pages/analytics/2022/general.html:2
+#: fyre_app/templates/pages/analytics/2022/residences.html:2
 #: fyre_app/templates/pages/analytics/custom.html:2
 #: fyre_app/templates/pages/contact.html:2
 #: fyre_app/templates/pages/privacy.html:2
@@ -67,10 +75,18 @@ msgstr "Home"
 
 #: fyre_app/templates/index.html:34 fyre_app/templates/pages/about.html:4
 #: fyre_app/templates/pages/analytics.html:3
-#: fyre_app/templates/pages/analytics/2019.html:3
-#: fyre_app/templates/pages/analytics/2020.html:3
-#: fyre_app/templates/pages/analytics/2021.html:3
-#: fyre_app/templates/pages/analytics/2022.html:3
+#: fyre_app/templates/pages/analytics/2019/buisness.html:3
+#: fyre_app/templates/pages/analytics/2019/general.html:3
+#: fyre_app/templates/pages/analytics/2019/residences.html:3
+#: fyre_app/templates/pages/analytics/2020/buisness.html:3
+#: fyre_app/templates/pages/analytics/2020/general.html:3
+#: fyre_app/templates/pages/analytics/2020/residences.html:3
+#: fyre_app/templates/pages/analytics/2021/buisness.html:3
+#: fyre_app/templates/pages/analytics/2021/general.html:3
+#: fyre_app/templates/pages/analytics/2021/residences.html:3
+#: fyre_app/templates/pages/analytics/2022/buisness.html:3
+#: fyre_app/templates/pages/analytics/2022/general.html:3
+#: fyre_app/templates/pages/analytics/2022/residences.html:3
 #: fyre_app/templates/pages/analytics/custom.html:3
 #: fyre_app/templates/pages/contact.html:4
 #: fyre_app/templates/pages/privacy.html:3
@@ -80,10 +96,18 @@ msgstr "Analytics"
 
 #: fyre_app/templates/index.html:37 fyre_app/templates/pages/about.html:6
 #: fyre_app/templates/pages/analytics.html:4
-#: fyre_app/templates/pages/analytics/2019.html:4
-#: fyre_app/templates/pages/analytics/2020.html:4
-#: fyre_app/templates/pages/analytics/2021.html:4
-#: fyre_app/templates/pages/analytics/2022.html:4
+#: fyre_app/templates/pages/analytics/2019/buisness.html:4
+#: fyre_app/templates/pages/analytics/2019/general.html:4
+#: fyre_app/templates/pages/analytics/2019/residences.html:4
+#: fyre_app/templates/pages/analytics/2020/buisness.html:4
+#: fyre_app/templates/pages/analytics/2020/general.html:4
+#: fyre_app/templates/pages/analytics/2020/residences.html:4
+#: fyre_app/templates/pages/analytics/2021/buisness.html:4
+#: fyre_app/templates/pages/analytics/2021/general.html:4
+#: fyre_app/templates/pages/analytics/2021/residences.html:4
+#: fyre_app/templates/pages/analytics/2022/buisness.html:4
+#: fyre_app/templates/pages/analytics/2022/general.html:4
+#: fyre_app/templates/pages/analytics/2022/residences.html:4
 #: fyre_app/templates/pages/analytics/custom.html:4
 #: fyre_app/templates/pages/contact.html:6
 #: fyre_app/templates/pages/privacy.html:4
@@ -93,10 +117,18 @@ msgstr "About"
 
 #: fyre_app/templates/index.html:40 fyre_app/templates/pages/about.html:7
 #: fyre_app/templates/pages/analytics.html:5
-#: fyre_app/templates/pages/analytics/2019.html:5
-#: fyre_app/templates/pages/analytics/2020.html:5
-#: fyre_app/templates/pages/analytics/2021.html:5
-#: fyre_app/templates/pages/analytics/2022.html:5
+#: fyre_app/templates/pages/analytics/2019/buisness.html:5
+#: fyre_app/templates/pages/analytics/2019/general.html:5
+#: fyre_app/templates/pages/analytics/2019/residences.html:5
+#: fyre_app/templates/pages/analytics/2020/buisness.html:5
+#: fyre_app/templates/pages/analytics/2020/general.html:5
+#: fyre_app/templates/pages/analytics/2020/residences.html:5
+#: fyre_app/templates/pages/analytics/2021/buisness.html:5
+#: fyre_app/templates/pages/analytics/2021/general.html:5
+#: fyre_app/templates/pages/analytics/2021/residences.html:5
+#: fyre_app/templates/pages/analytics/2022/buisness.html:5
+#: fyre_app/templates/pages/analytics/2022/general.html:5
+#: fyre_app/templates/pages/analytics/2022/residences.html:5
 #: fyre_app/templates/pages/analytics/custom.html:5
 #: fyre_app/templates/pages/contact.html:7
 #: fyre_app/templates/pages/privacy.html:5
@@ -242,96 +274,132 @@ msgstr "Choose the parameters and get your custom analysis!"
 msgid "Create Custom Analysis"
 msgstr "Start now!"
 
-#: fyre_app/templates/pages/analytics.html:28
-#: fyre_app/templates/pages/analytics/2019.html:17
+#: fyre_app/templates/pages/analytics.html:29
+#: fyre_app/templates/pages/analytics/2019/buisness.html:18
+#: fyre_app/templates/pages/analytics/2019/general.html:18
+#: fyre_app/templates/pages/analytics/2019/residences.html:18
 msgid "2019 Analysis"
 msgstr "2019"
 
-#: fyre_app/templates/pages/analytics.html:30
+#: fyre_app/templates/pages/analytics.html:31
 msgid "2019-analysis-content"
 msgstr "Content of the 2019 analysis"
 
-#: fyre_app/templates/pages/analytics.html:35
-#: fyre_app/templates/pages/analytics.html:46
-#: fyre_app/templates/pages/analytics.html:57
-#: fyre_app/templates/pages/analytics.html:68
-msgid "View Analysis"
-msgstr "View Analysis"
+#: fyre_app/templates/pages/analytics.html:37
+#: fyre_app/templates/pages/analytics.html:61
+#: fyre_app/templates/pages/analytics.html:86
+#: fyre_app/templates/pages/analytics.html:111
+msgid "Residences"
+msgstr "Residences"
 
-#: fyre_app/templates/pages/analytics.html:39
-#: fyre_app/templates/pages/analytics/2020.html:15
+#: fyre_app/templates/pages/analytics.html:42
+#: fyre_app/templates/pages/analytics.html:66
+#: fyre_app/templates/pages/analytics.html:91
+#: fyre_app/templates/pages/analytics.html:116
+msgid "Buisness"
+msgstr "Buisness"
+
+#: fyre_app/templates/pages/analytics.html:47
+#: fyre_app/templates/pages/analytics.html:71
+#: fyre_app/templates/pages/analytics.html:96
+#: fyre_app/templates/pages/analytics.html:121
+msgid "General"
+msgstr "General"
+
+#: fyre_app/templates/pages/analytics.html:53
+#: fyre_app/templates/pages/analytics/2020/buisness.html:15
+#: fyre_app/templates/pages/analytics/2020/general.html:15
+#: fyre_app/templates/pages/analytics/2020/residences.html:15
 msgid "2020 Analysis"
 msgstr "2020"
 
-#: fyre_app/templates/pages/analytics.html:41
+#: fyre_app/templates/pages/analytics.html:55
 msgid "2020-analysis-content"
 msgstr "Content of the 2020 analysis"
 
-#: fyre_app/templates/pages/analytics.html:50
-#: fyre_app/templates/pages/analytics/2021.html:15
+#: fyre_app/templates/pages/analytics.html:78
+#: fyre_app/templates/pages/analytics/2021/buisness.html:15
+#: fyre_app/templates/pages/analytics/2021/general.html:15
+#: fyre_app/templates/pages/analytics/2021/residences.html:15
 msgid "2021 Analysis"
 msgstr "2021"
 
-#: fyre_app/templates/pages/analytics.html:52
+#: fyre_app/templates/pages/analytics.html:80
 msgid "2021-analysis-content"
 msgstr "Content of the 2021 analysis"
 
-#: fyre_app/templates/pages/analytics.html:61
-#: fyre_app/templates/pages/analytics/2022.html:15
+#: fyre_app/templates/pages/analytics.html:103
+#: fyre_app/templates/pages/analytics/2022/buisness.html:15
+#: fyre_app/templates/pages/analytics/2022/general.html:15
+#: fyre_app/templates/pages/analytics/2022/residences.html:15
 msgid "2022 Analysis"
 msgstr "2022"
 
-#: fyre_app/templates/pages/analytics.html:63
+#: fyre_app/templates/pages/analytics.html:105
 msgid "2022-analysis-content"
 msgstr "Content of the 2022 analysis"
 
-#: fyre_app/templates/pages/analytics/2019.html:14
-#: fyre_app/templates/pages/analytics/2020.html:12
-#: fyre_app/templates/pages/analytics/2021.html:12
-#: fyre_app/templates/pages/analytics/2022.html:12
+#: fyre_app/templates/pages/analytics/2019/buisness.html:14
+#: fyre_app/templates/pages/analytics/2019/general.html:14
+#: fyre_app/templates/pages/analytics/2019/residences.html:14
+#: fyre_app/templates/pages/analytics/2020/buisness.html:12
+#: fyre_app/templates/pages/analytics/2020/general.html:12
+#: fyre_app/templates/pages/analytics/2020/residences.html:12
+#: fyre_app/templates/pages/analytics/2021/buisness.html:12
+#: fyre_app/templates/pages/analytics/2021/general.html:12
+#: fyre_app/templates/pages/analytics/2021/residences.html:12
+#: fyre_app/templates/pages/analytics/2022/buisness.html:12
+#: fyre_app/templates/pages/analytics/2022/general.html:12
+#: fyre_app/templates/pages/analytics/2022/residences.html:12
 #: fyre_app/templates/pages/analytics/custom.html:12
 msgid "Back to Analytics"
 msgstr "Back to Analytics"
 
-#: fyre_app/templates/pages/analytics/2019.html:20
-msgid "Flats Real Estate"
-msgstr "Flats Real Estate"
-
-#: fyre_app/templates/pages/analytics/2019.html:29
-msgid "yearly-first-caption"
-msgstr "Figure 1: Average price of flats per department"
-
-#: fyre_app/templates/pages/analytics/2019.html:38
-msgid "yearly-second-caption"
-msgstr "Figure 2: Square meter price of flats per department"
-
-#: fyre_app/templates/pages/analytics/2019.html:44
-msgid "Houses Real Estate"
-msgstr "Houses Real Estate"
-
-#: fyre_app/templates/pages/analytics/2019.html:53
-msgid "yearly-third-caption"
-msgstr "Figure 3: Average price of houses per department"
-
-#: fyre_app/templates/pages/analytics/2019.html:62
-msgid "yearly-fourth-caption"
-msgstr "Figure 4: Square meter price of houses per department"
-
-#: fyre_app/templates/pages/analytics/2019.html:68
+#: fyre_app/templates/pages/analytics/2019/buisness.html:21
 msgid "Locals Real Estate"
 msgstr "Industrial locals Real Estate"
 
-#: fyre_app/templates/pages/analytics/2019.html:77
+#: fyre_app/templates/pages/analytics/2019/buisness.html:30
 msgid "yearly-fifth-caption"
-msgstr "Figure 5: Average price of industrial premises per department"
+msgstr "Figure 1: Average price of industrial premises per department"
 
-#: fyre_app/templates/pages/analytics/2019.html:86
+#: fyre_app/templates/pages/analytics/2019/buisness.html:39
 msgid "yearly-sixth-caption"
-msgstr "Figure 6: Square meter price of industrial premises per department"
+msgstr "Figure 2: Square meter price of industrial premises per department"
 
-#: fyre_app/templates/pages/analytics/2020.html:17
-#: fyre_app/templates/pages/analytics/2021.html:17
-#: fyre_app/templates/pages/analytics/2022.html:17
+#: fyre_app/templates/pages/analytics/2019/residences.html:21
+msgid "Flats Real Estate"
+msgstr "Flats Real Estate"
+
+#: fyre_app/templates/pages/analytics/2019/residences.html:30
+msgid "yearly-first-caption"
+msgstr "Figure 1: Average price of flats per department"
+
+#: fyre_app/templates/pages/analytics/2019/residences.html:39
+msgid "yearly-second-caption"
+msgstr "Figure 2: Square meter price of flats per department"
+
+#: fyre_app/templates/pages/analytics/2019/residences.html:45
+msgid "Houses Real Estate"
+msgstr "Houses Real Estate"
+
+#: fyre_app/templates/pages/analytics/2019/residences.html:54
+msgid "yearly-third-caption"
+msgstr "Figure 3: Average price of houses per department"
+
+#: fyre_app/templates/pages/analytics/2019/residences.html:63
+msgid "yearly-fourth-caption"
+msgstr "Figure 4: Square meter price of houses per department"
+
+#: fyre_app/templates/pages/analytics/2020/buisness.html:17
+#: fyre_app/templates/pages/analytics/2020/general.html:17
+#: fyre_app/templates/pages/analytics/2020/residences.html:17
+#: fyre_app/templates/pages/analytics/2021/buisness.html:17
+#: fyre_app/templates/pages/analytics/2021/general.html:17
+#: fyre_app/templates/pages/analytics/2021/residences.html:17
+#: fyre_app/templates/pages/analytics/2022/buisness.html:17
+#: fyre_app/templates/pages/analytics/2022/general.html:17
+#: fyre_app/templates/pages/analytics/2022/residences.html:17
 #: fyre_app/templates/pages/analytics/custom.html:17
 msgid "SoonTM"
 msgstr "Soon"

@@ -25,26 +25,56 @@ def privacy(request):
     return render(request, "pages/privacy.html")
 
 
+# 2019
 def analytics_2019_residences(request):
     return render(request, "pages/analytics/2019/residences.html")
 
+
 def analytics_2019_buisness(request):
     return render(request, "pages/analytics/2019/buisness.html")
+
 
 def analytics_2019_general(request):
     return render(request, "pages/analytics/2019/general.html")
 
 
-def analytics2020(request):
-    return render(request, "pages/analytics/2020.html")
+# 2020
+def analytics_2020_residences(request):
+    return render(request, "pages/analytics/2020/residences.html")
 
 
-def analytics2021(request):
-    return render(request, "pages/analytics/2021.html")
+def analytics_2020_buisness(request):
+    return render(request, "pages/analytics/2020/buisness.html")
 
 
-def analytics2022(request):
-    return render(request, "pages/analytics/2022.html")
+def analytics_2020_general(request):
+    return render(request, "pages/analytics/2020/general.html")
+
+
+# 2021
+def analytics_2021_residences(request):
+    return render(request, "pages/analytics/2021/residences.html")
+
+
+def analytics_2021_buisness(request):
+    return render(request, "pages/analytics/2021/buisness.html")
+
+
+def analytics_2021_general(request):
+    return render(request, "pages/analytics/2021/general.html")
+
+
+# 2022
+def analytics_2022_residences(request):
+    return render(request, "pages/analytics/2022/residences.html")
+
+
+def analytics_2022_buisness(request):
+    return render(request, "pages/analytics/2022/buisness.html")
+
+
+def analytics_2022_general(request):
+    return render(request, "pages/analytics/2022/general.html")
 
 
 def analytics_custom(request):

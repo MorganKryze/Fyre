@@ -12,7 +12,7 @@
 </section>
 
 <section class="container mx-auto">
-  <div class="text-center mt-20 mb-20">
+  <div class="text-center mt-10 mb-10">
     <h2 class="text-5xl font-bold mb-2">{% trans "Custom Analysis" %}</h2>
     <p class="text-lg text-gray-500 mb-4">
       {% trans "custom-analysis-content" %}
@@ -23,7 +23,8 @@
       >{% trans "Create Custom Analysis" %}</a
     >
   </div>
-  <div class="grid grid-cols-2 gap-10 mb-20">
+  <div class="grid grid-cols-2 gap-10 mb-16">
+    <!-- 2019 Analysis -->
     <div class="text-center">
       <h2 class="text-5xl font-bold mb-2">{% trans "2019 Analysis" %}</h2>
       <p class="text-lg text-gray-500 mb-4">
@@ -33,53 +34,95 @@
         <a
           href="{% url 'analytics_2019_residences' %}"
           class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
-          >Residences</a
+          >{% trans "Residences" %}</a
         >
         <a
           href="{% url 'analytics_2019_buisness' %}"
           class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
-          >Buisness</a
+          >{% trans "Buisness" %}</a
         >
         <a
           href="{% url 'analytics_2019_general' %}"
           class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
-          >General</a
+          >{% trans "General" %}</a
         >
       </div>
     </div>
+    <!-- 2020 Analysis -->
     <div class="text-center">
       <h2 class="text-5xl font-bold mb-2">{% trans "2020 Analysis" %}</h2>
       <p class="text-lg text-gray-500 mb-4">
         {% trans "2020-analysis-content" %}
       </p>
-      <a
-        href="{% url 'analytics_2020' %}"
-        class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 mt-4"
-        >{% trans "View Analysis" %}</a
-      >
+      <div class="flex flex-col items-center">
+        <a
+          href="{% url 'analytics_2020_residences' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "Residences" %}</a
+        >
+        <a
+          href="{% url 'analytics_2020_buisness' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "Buisness" %}</a
+        >
+        <a
+          href="{% url 'analytics_2020_general' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "General" %}</a
+        >
+      </div>
     </div>
+
+    <!-- 2021 Analysis -->
     <div class="text-center">
       <h2 class="text-5xl font-bold mb-2">{% trans "2021 Analysis" %}</h2>
       <p class="text-lg text-gray-500 mb-4">
         {% trans "2021-analysis-content" %}
       </p>
-      <a
-        href="{% url 'analytics_2021' %}"
-        class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 mt-4"
-        >{% trans "View Analysis" %}</a
-      >
+      <div class="flex flex-col items-center">
+        <a
+          href="{% url 'analytics_2021_residences' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "Residences" %}</a
+        >
+        <a
+          href="{% url 'analytics_2021_buisness' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "Buisness" %}</a
+        >
+        <a
+          href="{% url 'analytics_2021_general' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "General" %}</a
+        >
+      </div>
     </div>
+
+    <!-- 2022 Analysis -->
     <div class="text-center">
       <h2 class="text-5xl font-bold mb-2">{% trans "2022 Analysis" %}</h2>
       <p class="text-lg text-gray-500 mb-4">
         {% trans "2022-analysis-content" %}
       </p>
-      <a
-        href="{% url 'analytics_2022' %}"
-        class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 mt-4"
-        >{% trans "View Analysis" %}</a
-      >
+      <div class="flex flex-col items-center">
+        <a
+          href="{% url 'analytics_2022_residences' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "Residences" %}</a
+        >
+        <a
+          href="{% url 'analytics_2022_buisness' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "Buisness" %}</a
+        >
+        <a
+          href="{% url 'analytics_2022_general' %}"
+          class="bg-blue-500 text-white px-4 py-3 rounded-full hover:bg-blue-600 mt-2 w-48"
+          >{% trans "General" %}</a
+        >
+      </div>
     </div>
   </div>
 </section>
+
 {% endblock %}
