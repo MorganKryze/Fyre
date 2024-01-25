@@ -1,4 +1,4 @@
 echo "----- Creating translation ids -----"
-python manage.py makemessages -l en
-python manage.py makemessages -l fr
+python manage.py makemessages -l en -i "assets*"
+python manage.py makemessages -l fr -i "assets*"
 echo "----- Done -----"

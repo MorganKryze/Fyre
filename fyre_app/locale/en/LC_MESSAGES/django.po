@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 23:12+0000\n"
+"POT-Creation-Date: 2024-01-25 19:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,7 +243,7 @@ msgid "Create Custom Analysis"
 msgstr "Start now!"
 
 #: fyre_app/templates/pages/analytics.html:28
-#: fyre_app/templates/pages/analytics/2019.html:15
+#: fyre_app/templates/pages/analytics/2019.html:17
 msgid "2019 Analysis"
 msgstr "2019"
 
@@ -285,13 +285,49 @@ msgstr "2022"
 msgid "2022-analysis-content"
 msgstr "Content of the 2022 analysis"
 
-#: fyre_app/templates/pages/analytics/2019.html:12
+#: fyre_app/templates/pages/analytics/2019.html:14
 #: fyre_app/templates/pages/analytics/2020.html:12
 #: fyre_app/templates/pages/analytics/2021.html:12
 #: fyre_app/templates/pages/analytics/2022.html:12
 #: fyre_app/templates/pages/analytics/custom.html:12
 msgid "Back to Analytics"
 msgstr "Back to Analytics"
+
+#: fyre_app/templates/pages/analytics/2019.html:20
+msgid "Flats Real Estate"
+msgstr "Flats Real Estate"
+
+#: fyre_app/templates/pages/analytics/2019.html:29
+msgid "yearly-first-caption"
+msgstr "Figure 1: Average price of flats per department"
+
+#: fyre_app/templates/pages/analytics/2019.html:38
+msgid "yearly-second-caption"
+msgstr "Figure 2: Square meter price of flats per department"
+
+#: fyre_app/templates/pages/analytics/2019.html:44
+msgid "Houses Real Estate"
+msgstr "Houses Real Estate"
+
+#: fyre_app/templates/pages/analytics/2019.html:53
+msgid "yearly-third-caption"
+msgstr "Figure 3: Average price of houses per department"
+
+#: fyre_app/templates/pages/analytics/2019.html:62
+msgid "yearly-fourth-caption"
+msgstr "Figure 4: Square meter price of houses per department"
+
+#: fyre_app/templates/pages/analytics/2019.html:68
+msgid "Locals Real Estate"
+msgstr "Industrial locals Real Estate"
+
+#: fyre_app/templates/pages/analytics/2019.html:77
+msgid "yearly-fifth-caption"
+msgstr "Figure 5: Average price of industrial premises per department"
+
+#: fyre_app/templates/pages/analytics/2019.html:86
+msgid "yearly-sixth-caption"
+msgstr "Figure 6: Square meter price of industrial premises per department"
 
 #: fyre_app/templates/pages/analytics/2020.html:17
 #: fyre_app/templates/pages/analytics/2021.html:17
