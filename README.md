@@ -43,7 +43,9 @@ Then install the dependencies:
 pip install -r envs/jupyter/requirements.txt
 ```
 
-And install the dataset from this [website](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/).
+And install the dataset from this [website](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) (2019, 2020, 2021, 2022).
+
+Rename it to 'data_year.txt' (example: data_2020.txt) and put it in the 'assets/data' folder.
 
 You should be ready to run the notebooks and update the data.
 
