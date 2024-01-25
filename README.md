@@ -25,14 +25,6 @@ Then install the dependencies:
 pip install -r envs/django/requirements.txt
 ```
 
-If you want to run the jupyter notebooks, you'll also need to install the following dependencies:
-
-Then install the dependencies:
-
-```bash
-pip install -r envs/jupyter/requirements.txt
-```
-
 That's it! You're ready to go.
 
 ### Use
@@ -43,7 +35,19 @@ To run the project, just run the following command:
 python manage.py runserver
 ```
 
-To host the project on Vercel, you'll need to create a new project and link it to your repository. Then it should be good to go!
+If you want to run the jupyter notebooks and update it, you'll also need to install the following dependencies:
+
+Then install the dependencies:
+
+```bash
+pip install -r envs/jupyter/requirements.txt
+```
+
+And install the dataset from this [website](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/).
+
+You should be ready to run the notebooks and update the data.
+
+Finally, to host the project on Vercel, you'll need to create a new project and link it to your repository. Then it should be good to go!
 
 ## Built With
 
