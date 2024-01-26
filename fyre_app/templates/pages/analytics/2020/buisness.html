@@ -3,17 +3,42 @@
 <a href="{% url 'analytics' %}" class="border-b-2">{% trans "Analytics" %}</a>
 <a href="{% url 'about' %}" class="hover:underline">{% trans "About" %}</a>
 <a href="{% url 'contact' %}" class="hover:underline">{% trans "Contact" %}</a>
-{% endblock %} {% block content %} {% load i18n %}
+{% endblock %} {% block content %} {% load i18n %}{% load static %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
 <div class="flex mt-10 ml-4">
   <a
     href="{% url 'analytics' %}"
-    class="bg-blue-500 text-white px-6 py-3 rounded-full fixed hover:bg-blue-600"
+    class="bg-blue-500 text-white px-6 py-3 rounded-full fixed hover:bg-blue-600 z-10"
   >
     &#8592; {% trans "Back to Analytics" %}
   </a>
 </div>
+
 <h1 class="text-5xl font-bold mb-4 text-center">{% trans "2020 Analysis" %}</h1>
 
-<p class="text-center mt-16">{% trans "SoonTM" %}&trade;</p>
+<h2 class="text-3xl font-bold mb-4 text-center">
+  {% trans "Locals Real Estate" %}
+</h2>
+
+<div class="flex flex-wrap justify-center">
+  <div class="w-4/5 max-w-xl mx-2 mb-20">
+    <div class="relative pb-3/4">
+      {% include "pages/analytics/2020/plots/5.html"%}
+    </div>
+    <p class="text-gray-500 text-center mt-2">
+      {% trans "yearly-fifth-caption" %}
+    </p>
+  </div>
+
+  <div class="w-4/5 max-w-xl mx-2 mb-20">
+    <div class="relative pb-3/4">
+      {% include "pages/analytics/2020/plots/6.html"%}
+    </div>
+    <p class="text-gray-500 text-center mt-2">
+      {% trans "yearly-sixth-caption" %}
+    </p>
+  </div>
+</div>
 
 {% endblock %}

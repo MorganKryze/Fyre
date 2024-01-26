@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 13:16+0000\n"
+"POT-Creation-Date: 2024-01-26 13:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -315,9 +315,9 @@ msgid "General"
 msgstr "Général"
 
 #: fyre_app/templates/pages/analytics.html:53
-#: fyre_app/templates/pages/analytics/2020/buisness.html:15
-#: fyre_app/templates/pages/analytics/2020/general.html:15
-#: fyre_app/templates/pages/analytics/2020/residences.html:15
+#: fyre_app/templates/pages/analytics/2020/buisness.html:18
+#: fyre_app/templates/pages/analytics/2020/general.html:18
+#: fyre_app/templates/pages/analytics/2020/residences.html:18
 msgid "2020 Analysis"
 msgstr "2020"
 
@@ -326,9 +326,9 @@ msgid "2020-analysis-content"
 msgstr "Contenu de l'analyse 2020"
 
 #: fyre_app/templates/pages/analytics.html:78
-#: fyre_app/templates/pages/analytics/2021/buisness.html:15
-#: fyre_app/templates/pages/analytics/2021/general.html:15
-#: fyre_app/templates/pages/analytics/2021/residences.html:15
+#: fyre_app/templates/pages/analytics/2021/buisness.html:18
+#: fyre_app/templates/pages/analytics/2021/general.html:18
+#: fyre_app/templates/pages/analytics/2021/residences.html:18
 msgid "2021 Analysis"
 msgstr "2021"
 
@@ -337,9 +337,9 @@ msgid "2021-analysis-content"
 msgstr "Contenu de l'analyse 2021"
 
 #: fyre_app/templates/pages/analytics.html:103
-#: fyre_app/templates/pages/analytics/2022/buisness.html:15
-#: fyre_app/templates/pages/analytics/2022/general.html:15
-#: fyre_app/templates/pages/analytics/2022/residences.html:15
+#: fyre_app/templates/pages/analytics/2022/buisness.html:18
+#: fyre_app/templates/pages/analytics/2022/general.html:18
+#: fyre_app/templates/pages/analytics/2022/residences.html:18
 msgid "2022 Analysis"
 msgstr "2022"
 
@@ -350,82 +350,109 @@ msgstr "Contenu de l'analyse 2022"
 #: fyre_app/templates/pages/analytics/2019/buisness.html:14
 #: fyre_app/templates/pages/analytics/2019/general.html:14
 #: fyre_app/templates/pages/analytics/2019/residences.html:14
-#: fyre_app/templates/pages/analytics/2020/buisness.html:12
-#: fyre_app/templates/pages/analytics/2020/general.html:12
-#: fyre_app/templates/pages/analytics/2020/residences.html:12
-#: fyre_app/templates/pages/analytics/2021/buisness.html:12
-#: fyre_app/templates/pages/analytics/2021/general.html:12
-#: fyre_app/templates/pages/analytics/2021/residences.html:12
-#: fyre_app/templates/pages/analytics/2022/buisness.html:12
-#: fyre_app/templates/pages/analytics/2022/general.html:12
-#: fyre_app/templates/pages/analytics/2022/residences.html:12
+#: fyre_app/templates/pages/analytics/2020/buisness.html:14
+#: fyre_app/templates/pages/analytics/2020/general.html:14
+#: fyre_app/templates/pages/analytics/2020/residences.html:14
+#: fyre_app/templates/pages/analytics/2021/buisness.html:14
+#: fyre_app/templates/pages/analytics/2021/general.html:14
+#: fyre_app/templates/pages/analytics/2021/residences.html:14
+#: fyre_app/templates/pages/analytics/2022/buisness.html:14
+#: fyre_app/templates/pages/analytics/2022/general.html:14
+#: fyre_app/templates/pages/analytics/2022/residences.html:14
 #: fyre_app/templates/pages/analytics/custom.html:13
 msgid "Back to Analytics"
 msgstr "Retour"
 
 #: fyre_app/templates/pages/analytics/2019/buisness.html:21
+#: fyre_app/templates/pages/analytics/2020/buisness.html:21
+#: fyre_app/templates/pages/analytics/2021/buisness.html:21
+#: fyre_app/templates/pages/analytics/2022/buisness.html:21
 msgid "Locals Real Estate"
 msgstr "Valeur des Locaux Industriels"
 
 #: fyre_app/templates/pages/analytics/2019/buisness.html:30
+#: fyre_app/templates/pages/analytics/2020/buisness.html:30
+#: fyre_app/templates/pages/analytics/2021/buisness.html:30
+#: fyre_app/templates/pages/analytics/2022/buisness.html:30
 msgid "yearly-fifth-caption"
 msgstr "Figure 1 : Prix moyen des locaux industriels par département"
 
 #: fyre_app/templates/pages/analytics/2019/buisness.html:39
+#: fyre_app/templates/pages/analytics/2020/buisness.html:39
+#: fyre_app/templates/pages/analytics/2021/buisness.html:39
+#: fyre_app/templates/pages/analytics/2022/buisness.html:39
 msgid "yearly-sixth-caption"
 msgstr "Figure 2 : Prix du mètre carré des locaux industriels par département"
 
 #: fyre_app/templates/pages/analytics/2019/general.html:21
+#: fyre_app/templates/pages/analytics/2020/general.html:21
+#: fyre_app/templates/pages/analytics/2021/general.html:21
+#: fyre_app/templates/pages/analytics/2022/general.html:21
 msgid "Additional Real Estate Analysis"
 msgstr "Analyse Immobilière Supplémentaire"
 
 #: fyre_app/templates/pages/analytics/2019/general.html:30
+#: fyre_app/templates/pages/analytics/2020/general.html:30
+#: fyre_app/templates/pages/analytics/2021/general.html:30
+#: fyre_app/templates/pages/analytics/2022/general.html:30
 msgid "yearly-seventh-caption"
 msgstr "Figure 1 : Répartition des voies (routes, avenues, etc.)"
 
 #: fyre_app/templates/pages/analytics/2019/general.html:39
+#: fyre_app/templates/pages/analytics/2020/general.html:39
+#: fyre_app/templates/pages/analytics/2021/general.html:39
+#: fyre_app/templates/pages/analytics/2022/general.html:39
 msgid "yearly-eighth-caption"
 msgstr "Figure 2 : Top 5 des propriétés les plus vendues"
 
 #: fyre_app/templates/pages/analytics/2019/general.html:48
+#: fyre_app/templates/pages/analytics/2020/general.html:48
+#: fyre_app/templates/pages/analytics/2021/general.html:48
+#: fyre_app/templates/pages/analytics/2022/general.html:48
 msgid "yearly-ninth-caption"
 msgstr "Figure 3 : Répartition des propriétés vendues par type"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:21
+#: fyre_app/templates/pages/analytics/2020/residences.html:21
+#: fyre_app/templates/pages/analytics/2021/residences.html:21
+#: fyre_app/templates/pages/analytics/2022/residences.html:21
 msgid "Flats Real Estate"
 msgstr "Valeur des appartements"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:30
+#: fyre_app/templates/pages/analytics/2020/residences.html:30
+#: fyre_app/templates/pages/analytics/2021/residences.html:30
+#: fyre_app/templates/pages/analytics/2022/residences.html:30
 msgid "yearly-first-caption"
 msgstr "Figure 1 : Prix moyen des appartements par département"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:39
+#: fyre_app/templates/pages/analytics/2020/residences.html:39
+#: fyre_app/templates/pages/analytics/2021/residences.html:39
+#: fyre_app/templates/pages/analytics/2022/residences.html:39
 msgid "yearly-second-caption"
 msgstr "Figure 2 : Prix du mètre carré des appartements par département"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:45
+#: fyre_app/templates/pages/analytics/2020/residences.html:45
+#: fyre_app/templates/pages/analytics/2021/residences.html:45
+#: fyre_app/templates/pages/analytics/2022/residences.html:45
 msgid "Houses Real Estate"
 msgstr "Valeur des Maisons"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:54
+#: fyre_app/templates/pages/analytics/2020/residences.html:54
+#: fyre_app/templates/pages/analytics/2021/residences.html:54
+#: fyre_app/templates/pages/analytics/2022/residences.html:54
 msgid "yearly-third-caption"
 msgstr "Figure 3 : Prix moyen des maisons par département"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:63
+#: fyre_app/templates/pages/analytics/2020/residences.html:63
+#: fyre_app/templates/pages/analytics/2021/residences.html:63
+#: fyre_app/templates/pages/analytics/2022/residences.html:63
 msgid "yearly-fourth-caption"
 msgstr "Figure 4 : Prix du mètre carré des maisons par département"
-
-#: fyre_app/templates/pages/analytics/2020/buisness.html:17
-#: fyre_app/templates/pages/analytics/2020/general.html:17
-#: fyre_app/templates/pages/analytics/2020/residences.html:17
-#: fyre_app/templates/pages/analytics/2021/buisness.html:17
-#: fyre_app/templates/pages/analytics/2021/general.html:17
-#: fyre_app/templates/pages/analytics/2021/residences.html:17
-#: fyre_app/templates/pages/analytics/2022/buisness.html:17
-#: fyre_app/templates/pages/analytics/2022/general.html:17
-#: fyre_app/templates/pages/analytics/2022/residences.html:17
-msgid "SoonTM"
-msgstr "Bientôt"
 
 #: fyre_app/templates/pages/analytics/custom.html:26
 msgid "custom-first-caption"
@@ -571,3 +598,6 @@ msgid "terms-changes-content"
 msgstr ""
 "Nous pouvons mettre à jour nos Conditions d'utilisation de temps en temps. "
 "Mais soyons honnêtes, il n'y a pas grand-chose à mettre à jour ici."
+
+#~ msgid "SoonTM"
+#~ msgstr "Bientôt"
