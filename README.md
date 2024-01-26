@@ -1,6 +1,6 @@
 # Fyre
 
-> A simple Django project to explore Real Estate data and publish it to the web using Vercel.
+> A Django project to explore Real Estate data and publish it to the web using Vercel.
 
 [![Fyre](assets/img/demo.jpeg)](https://fyre.vercel.app/)
 
@@ -8,7 +8,7 @@
 
 ### Prerequisites
 
-- Python 3.9 (Not higher)
+- Python 3.9 (Not higher for Vercel deployment)
 - Pip
 
 ### Install
