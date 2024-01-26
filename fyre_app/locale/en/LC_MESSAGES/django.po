@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-25 22:07+0000\n"
+"POT-Creation-Date: 2024-01-26 13:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,41 +18,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: fyre/settings.py:111 fyre_app/templates/base.html:83
-#: fyre_app/templates/index.html:92
+#: fyre/settings.py:111 fyre_app/templates/base.html:93
+#: fyre_app/templates/index.html:118
 msgid "English"
 msgstr "English"
 
-#: fyre/settings.py:112 fyre_app/templates/base.html:100
-#: fyre_app/templates/index.html:109
+#: fyre/settings.py:112 fyre_app/templates/base.html:110
+#: fyre_app/templates/index.html:135
 msgid "French"
 msgstr "French"
 
-#: fyre_app/templates/base.html:42 fyre_app/templates/index.html:51
+#: fyre_app/templates/base.html:52 fyre_app/templates/index.html:77
 msgid "Language"
 msgstr "Language"
 
-#: fyre_app/templates/base.html:124 fyre_app/templates/index.html:184
+#: fyre_app/templates/base.html:134 fyre_app/templates/index.html:211
 msgid "footer-terms"
 msgstr "Terms"
 
-#: fyre_app/templates/base.html:128 fyre_app/templates/index.html:186
+#: fyre_app/templates/base.html:138 fyre_app/templates/index.html:215
 msgid "footer-privacy"
 msgstr "Privacy"
 
-#: fyre_app/templates/base.html:132 fyre_app/templates/index.html:189
+#: fyre_app/templates/base.html:142 fyre_app/templates/index.html:219
 msgid "footer-disclaimer"
 msgstr ""
 "Disclaimer: This website is a student project and is for informational "
 "purposes only. "
 
-#: fyre_app/templates/base.html:134 fyre_app/templates/index.html:191
+#: fyre_app/templates/base.html:144 fyre_app/templates/index.html:221
 msgid "footer-data"
 msgstr ""
 "The data may not be accurate or up-to-date. Please do not use this "
 "information to make real decisions."
 
-#: fyre_app/templates/index.html:32 fyre_app/templates/pages/about.html:2
+#: fyre_app/templates/index.html:49 fyre_app/templates/pages/about.html:2
 #: fyre_app/templates/pages/analytics.html:2
 #: fyre_app/templates/pages/analytics/2019/buisness.html:2
 #: fyre_app/templates/pages/analytics/2019/general.html:2
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Home"
 msgstr "Home"
 
-#: fyre_app/templates/index.html:34 fyre_app/templates/pages/about.html:4
+#: fyre_app/templates/index.html:54 fyre_app/templates/pages/about.html:4
 #: fyre_app/templates/pages/analytics.html:3
 #: fyre_app/templates/pages/analytics/2019/buisness.html:3
 #: fyre_app/templates/pages/analytics/2019/general.html:3
@@ -94,7 +94,7 @@ msgstr "Home"
 msgid "Analytics"
 msgstr "Analytics"
 
-#: fyre_app/templates/index.html:37 fyre_app/templates/pages/about.html:6
+#: fyre_app/templates/index.html:59 fyre_app/templates/pages/about.html:6
 #: fyre_app/templates/pages/analytics.html:4
 #: fyre_app/templates/pages/analytics/2019/buisness.html:4
 #: fyre_app/templates/pages/analytics/2019/general.html:4
@@ -115,7 +115,7 @@ msgstr "Analytics"
 msgid "About"
 msgstr "About"
 
-#: fyre_app/templates/index.html:40 fyre_app/templates/pages/about.html:7
+#: fyre_app/templates/index.html:64 fyre_app/templates/pages/about.html:7
 #: fyre_app/templates/pages/analytics.html:5
 #: fyre_app/templates/pages/analytics/2019/buisness.html:5
 #: fyre_app/templates/pages/analytics/2019/general.html:5
@@ -136,24 +136,24 @@ msgstr "About"
 msgid "Contact"
 msgstr "Contact"
 
-#: fyre_app/templates/index.html:123
+#: fyre_app/templates/index.html:149
 msgid "hero-title"
 msgstr "Empowering your decisions with analytics"
 
-#: fyre_app/templates/index.html:124
+#: fyre_app/templates/index.html:150
 msgid "hero-content"
 msgstr ""
 "Unlock insights, make data-driven decisions, and drive business success."
 
-#: fyre_app/templates/index.html:128
+#: fyre_app/templates/index.html:154
 msgid "hero-button"
 msgstr "Start now!"
 
-#: fyre_app/templates/index.html:138
+#: fyre_app/templates/index.html:164
 msgid "section-1-title"
 msgstr "Reliable."
 
-#: fyre_app/templates/index.html:139
+#: fyre_app/templates/index.html:165
 msgid "section-1-content"
 msgstr ""
 "Our analytics platform is built on a foundation of reliability. We "
@@ -161,11 +161,11 @@ msgstr ""
 "decision-making process. With our reliable analytics solutions, you can "
 "trust the insights that drive your business forward."
 
-#: fyre_app/templates/index.html:146
+#: fyre_app/templates/index.html:172
 msgid "section-2-title"
 msgstr "Efficient."
 
-#: fyre_app/templates/index.html:147
+#: fyre_app/templates/index.html:173
 msgid "section-2-content"
 msgstr ""
 " Efficiency is at the core of our analytics tools. We recognize the value of "
@@ -174,11 +174,11 @@ msgstr ""
 "Maximize productivity and make the most of your resources with our efficient "
 "analytics platform."
 
-#: fyre_app/templates/index.html:154
+#: fyre_app/templates/index.html:180
 msgid "section-3-title"
 msgstr "Insightful."
 
-#: fyre_app/templates/index.html:155
+#: fyre_app/templates/index.html:181
 msgid "section-3-content"
 msgstr ""
 "Unlock deep insights into your data with our analytics platform. We go "
@@ -187,11 +187,11 @@ msgstr ""
 "you to make informed decisions and drive growth and improvement within your "
 "organization."
 
-#: fyre_app/templates/index.html:162
+#: fyre_app/templates/index.html:188
 msgid "section-4-title"
 msgstr "Flexible."
 
-#: fyre_app/templates/index.html:163
+#: fyre_app/templates/index.html:189
 msgid "section-4-content"
 msgstr ""
 "Business needs are dynamic, and our analytics platform is designed to be "
@@ -200,11 +200,11 @@ msgstr ""
 "conditions, our platform grows with you. Stay agile and responsive with our "
 "flexible analytics tools."
 
-#: fyre_app/templates/index.html:170
+#: fyre_app/templates/index.html:196
 msgid "section-5-title"
 msgstr "Innovative."
 
-#: fyre_app/templates/index.html:171
+#: fyre_app/templates/index.html:197
 msgid "section-5-content"
 msgstr ""
 "Stay ahead of the curve with our innovative analytics solutions. We are "
@@ -262,13 +262,13 @@ msgstr ""
 "success."
 
 #: fyre_app/templates/pages/analytics.html:16
-#: fyre_app/templates/pages/analytics/custom.html:15
+#: fyre_app/templates/pages/analytics/custom.html:17
 msgid "Custom Analysis"
-msgstr "Custom Analysis"
+msgstr "Multi-year analysis"
 
 #: fyre_app/templates/pages/analytics.html:18
 msgid "custom-analysis-content"
-msgstr "Choose the parameters and get your custom analysis!"
+msgstr "Content of the custom analysis from 2019 to 2022"
 
 #: fyre_app/templates/pages/analytics.html:23
 msgid "Create Custom Analysis"
@@ -351,7 +351,7 @@ msgstr "Content of the 2022 analysis"
 #: fyre_app/templates/pages/analytics/2022/buisness.html:12
 #: fyre_app/templates/pages/analytics/2022/general.html:12
 #: fyre_app/templates/pages/analytics/2022/residences.html:12
-#: fyre_app/templates/pages/analytics/custom.html:12
+#: fyre_app/templates/pages/analytics/custom.html:13
 msgid "Back to Analytics"
 msgstr "Back to Analytics"
 
@@ -366,6 +366,22 @@ msgstr "Figure 1: Average price of industrial premises per department"
 #: fyre_app/templates/pages/analytics/2019/buisness.html:39
 msgid "yearly-sixth-caption"
 msgstr "Figure 2: Square meter price of industrial premises per department"
+
+#: fyre_app/templates/pages/analytics/2019/general.html:21
+msgid "Additional Real Estate Analysis"
+msgstr "Additional Real Estate Analysis"
+
+#: fyre_app/templates/pages/analytics/2019/general.html:30
+msgid "yearly-seventh-caption"
+msgstr "Figure 1: Repartion of the ways (roads, avenues, etc.)"
+
+#: fyre_app/templates/pages/analytics/2019/general.html:39
+msgid "yearly-eighth-caption"
+msgstr "Figure 2: Top 5 of the most properties sold"
+
+#: fyre_app/templates/pages/analytics/2019/general.html:48
+msgid "yearly-ninth-caption"
+msgstr "Figure 3: Repartition of the properties sold by type"
 
 #: fyre_app/templates/pages/analytics/2019/residences.html:21
 msgid "Flats Real Estate"
@@ -400,9 +416,24 @@ msgstr "Figure 4: Square meter price of houses per department"
 #: fyre_app/templates/pages/analytics/2022/buisness.html:17
 #: fyre_app/templates/pages/analytics/2022/general.html:17
 #: fyre_app/templates/pages/analytics/2022/residences.html:17
-#: fyre_app/templates/pages/analytics/custom.html:17
 msgid "SoonTM"
 msgstr "Soon"
+
+#: fyre_app/templates/pages/analytics/custom.html:26
+msgid "custom-first-caption"
+msgstr "Figure 1: Sales by month"
+
+#: fyre_app/templates/pages/analytics/custom.html:35
+msgid "custom-second-caption"
+msgstr "Figure 2: Average price by number of main rooms"
+
+#: fyre_app/templates/pages/analytics/custom.html:45
+msgid "custom-thrid-caption"
+msgstr "Figure 3: Types of properties sold (choice of year)"
+
+#: fyre_app/templates/pages/analytics/custom.html:54
+msgid "custom-fourth-caption"
+msgstr "Figure 4: Types of properties sold (over several years)"
 
 #: fyre_app/templates/pages/contact.html:27
 msgid "member-1-job"

@@ -17,4 +17,37 @@
 
 <h1 class="text-5xl font-bold mb-4 text-center">{% trans "2019 Analysis" %}</h1>
 
+<h2 class="text-3xl font-bold mb-4 text-center">
+  {% trans "Additional Real Estate Analysis" %}
+</h2>
+
+<div class="flex flex-wrap justify-center">
+  <div class="w-4/5 max-w-xl mx-2 mb-20">
+    <div class="relative pb-3/4">
+      {% include "pages/analytics/2019/plots/7.html"%}
+    </div>
+    <p class="text-gray-500 text-center mt-2">
+      {% trans "yearly-seventh-caption" %}
+    </p>
+  </div>
+
+  <div class="w-4/5 max-w-xl mx-2 mb-20">
+    <div class="relative pb-3/4">
+      {% include "pages/analytics/2019/plots/8.html"%}
+    </div>
+    <p class="text-gray-500 text-center mt-2">
+      {% trans "yearly-eighth-caption" %}
+    </p>
+  </div>
+
+  <div class="w-4/5 max-w-xl mx-2 mb-20">
+    <div class="relative pb-3/4">
+      {% include "pages/analytics/2019/plots/9.html"%}
+    </div>
+    <p class="text-gray-500 text-center mt-2">
+      {% trans "yearly-ninth-caption" %}
+    </p>
+  </div>
+</div>
+
 {% endblock %}
